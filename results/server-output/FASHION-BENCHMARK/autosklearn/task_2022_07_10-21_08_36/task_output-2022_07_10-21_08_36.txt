@@ -1,0 +1,152 @@
+
+Loading benchmark model ...
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 10.0% Malicious Data and 90.0% Clean Data.
+Training with poison percent = 0.1, and epsilon = 4 reaches Accuracy = 0.8654
+
+Time taken for execution  since Start: 1:00:43.042517
+
+Time taken for execution  since Last Timing: 1:00:43.033899
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 50.0% Malicious Data and 50.0% Clean Data.
+Training with poison percent = 0.5, and epsilon = 4 reaches Accuracy = 0.8553
+
+Time taken for execution  since Start: 2:00:48.580392
+
+Time taken for execution  since Last Timing: 1:00:05.537875
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 90.0% Malicious Data and 9.999999999999998% Clean Data.
+Training with poison percent = 0.9, and epsilon = 4 reaches Accuracy = 0.7991
+
+Time taken for execution  since Start: 3:00:47.272724
+
+Time taken for execution  since Last Timing: 0:59:58.692332
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0% Antipoison Data, 100% Malicious Data and 0% Clean Data.
+Training with poison percent = 1, and epsilon = 4 reaches Accuracy = 0.667
+
+Time taken for execution  since Start: 4:01:42.200473
+
+Time taken for execution  since Last Timing: 1:00:54.927749
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 10.0% Malicious Data and 90.0% Clean Data.
+Training with poison percent = 0.1, and epsilon = 8 reaches Accuracy = 0.8651
+
+Time taken for execution  since Start: 5:02:13.304754
+
+Time taken for execution  since Last Timing: 1:00:31.104281
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 50.0% Malicious Data and 50.0% Clean Data.
+Training with poison percent = 0.5, and epsilon = 8 reaches Accuracy = 0.8532
+
+Time taken for execution  since Start: 6:03:36.245441
+
+Time taken for execution  since Last Timing: 1:01:22.940687
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 90.0% Malicious Data and 9.999999999999998% Clean Data.
+Training with poison percent = 0.9, and epsilon = 8 reaches Accuracy = 0.819
+
+Time taken for execution  since Start: 7:03:47.082463
+
+Time taken for execution  since Last Timing: 1:00:10.837022
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0% Antipoison Data, 100% Malicious Data and 0% Clean Data.
+Training with poison percent = 1, and epsilon = 8 reaches Accuracy = 0.5708
+
+Time taken for execution  since Start: 8:03:51.680971
+
+Time taken for execution  since Last Timing: 1:00:04.598508
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 10.0% Malicious Data and 90.0% Clean Data.
+Training with poison percent = 0.1, and epsilon = 16 reaches Accuracy = 0.8637
+
+Time taken for execution  since Start: 9:04:03.213377
+
+Time taken for execution  since Last Timing: 1:00:11.532406
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 50.0% Malicious Data and 50.0% Clean Data.
+Training with poison percent = 0.5, and epsilon = 16 reaches Accuracy = 0.8516
+
+Time taken for execution  since Start: 10:04:13.580332
+
+Time taken for execution  since Last Timing: 1:00:10.366955
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 90.0% Malicious Data and 9.999999999999998% Clean Data.
+Training with poison percent = 0.9, and epsilon = 16 reaches Accuracy = 0.8126
+
+Time taken for execution  since Start: 11:04:35.960433
+
+Time taken for execution  since Last Timing: 1:00:22.380101
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0% Antipoison Data, 100% Malicious Data and 0% Clean Data.
+Training with poison percent = 1, and epsilon = 16 reaches Accuracy = 0.6578
+
+Time taken for execution  since Start: 12:04:39.965164
+
+Time taken for execution  since Last Timing: 1:00:04.004731
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 10.0% Malicious Data and 90.0% Clean Data.
+Training with poison percent = 0.1, and epsilon = 64 reaches Accuracy = 0.8624
+
+Time taken for execution  since Start: 13:04:55.070467
+
+Time taken for execution  since Last Timing: 1:00:15.105303
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 50.0% Malicious Data and 50.0% Clean Data.
+Training with poison percent = 0.5, and epsilon = 64 reaches Accuracy = 0.8423
+
+Time taken for execution  since Start: 14:04:59.827337
+
+Time taken for execution  since Last Timing: 1:00:04.756870
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 90.0% Malicious Data and 9.999999999999998% Clean Data.
+Training with poison percent = 0.9, and epsilon = 64 reaches Accuracy = 0.7823
+
+Time taken for execution  since Start: 15:05:04.462555
+
+Time taken for execution  since Last Timing: 1:00:04.635218
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0% Antipoison Data, 100% Malicious Data and 0% Clean Data.
+Training with poison percent = 1, and epsilon = 64 reaches Accuracy = 0.6463
+
+Time taken for execution  since Start: 16:05:24.194522
+
+Time taken for execution  since Last Timing: 1:00:19.731967
+Training with full dataset
+Accuracy score on clean 100% data:  0.9072
+
+Time taken for execution  since Start: 17:06:46.297532
+
+Time taken for execution  since Last Timing: 1:01:22.103010

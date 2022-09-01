@@ -1,0 +1,58 @@
+
+Loading benchmark model ...
+Loss values default average epsilon = 4: 0.2937288284301758
+Detailed Values:
+0.293962
+0.29369965
+0.29351687
+0.29392764
+0.29353803
+Loss values absolute average epsilon = 4: 0.28087061643600464
+Detailed Values:
+0.28123534
+0.2808732
+0.2806499
+0.28094277
+0.280652
+Loss values default average epsilon = 8: 0.3268546164035797
+Detailed Values:
+0.3273635
+0.32676423
+0.32644835
+0.3272201
+0.3264769
+Loss values absolute average epsilon = 8: 0.2908244729042053
+Detailed Values:
+0.2916318
+0.29084143
+0.29029045
+0.29091138
+0.29044738
+Loss values default average epsilon = 16: 0.47022709250450134
+Detailed Values:
+0.47087672
+0.4704241
+0.46973756
+0.47052246
+0.46957478
+Loss values absolute average epsilon = 16: 0.31993550062179565
+Detailed Values:
+0.3214608
+0.31987324
+0.3190408
+0.3198015
+0.319501
+Loss values default average epsilon = 64: 1.730832815170288
+Detailed Values:
+1.732133
+1.728932
+1.7307063
+1.7334932
+1.7288991
+Loss values absolute average epsilon = 64: 0.8914344906806946
+Detailed Values:
+0.8929762
+0.8870168
+0.89134765
+0.895124
+0.8907077

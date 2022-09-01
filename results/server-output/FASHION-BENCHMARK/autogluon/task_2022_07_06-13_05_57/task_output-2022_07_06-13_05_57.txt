@@ -1,0 +1,806 @@
+Training with 100% Data
+[1]	valid_set's multi_error: 0.2736
+[2]	valid_set's multi_error: 0.2484
+[3]	valid_set's multi_error: 0.2288
+[4]	valid_set's multi_error: 0.2232
+[5]	valid_set's multi_error: 0.2104
+[6]	valid_set's multi_error: 0.2108
+[7]	valid_set's multi_error: 0.206
+[8]	valid_set's multi_error: 0.206
+[9]	valid_set's multi_error: 0.2052
+[10]	valid_set's multi_error: 0.204
+[11]	valid_set's multi_error: 0.1992
+[12]	valid_set's multi_error: 0.196
+[13]	valid_set's multi_error: 0.1948
+[14]	valid_set's multi_error: 0.192
+[15]	valid_set's multi_error: 0.1912
+[16]	valid_set's multi_error: 0.1932
+[17]	valid_set's multi_error: 0.1904
+[18]	valid_set's multi_error: 0.192
+[19]	valid_set's multi_error: 0.1872
+[20]	valid_set's multi_error: 0.1892
+[21]	valid_set's multi_error: 0.1864
+[22]	valid_set's multi_error: 0.1848
+[23]	valid_set's multi_error: 0.1864
+[24]	valid_set's multi_error: 0.1864
+[25]	valid_set's multi_error: 0.1844
+[26]	valid_set's multi_error: 0.1824
+[27]	valid_set's multi_error: 0.1828
+[28]	valid_set's multi_error: 0.1808
+[29]	valid_set's multi_error: 0.1792
+[30]	valid_set's multi_error: 0.1808
+[31]	valid_set's multi_error: 0.1808
+[32]	valid_set's multi_error: 0.1804
+[33]	valid_set's multi_error: 0.1796
+[34]	valid_set's multi_error: 0.1788
+[35]	valid_set's multi_error: 0.1788
+[36]	valid_set's multi_error: 0.1796
+[37]	valid_set's multi_error: 0.1772
+[38]	valid_set's multi_error: 0.1768
+[39]	valid_set's multi_error: 0.1736
+[40]	valid_set's multi_error: 0.1728
+[41]	valid_set's multi_error: 0.1708
+[42]	valid_set's multi_error: 0.1728
+[43]	valid_set's multi_error: 0.1704
+[44]	valid_set's multi_error: 0.1696
+[45]	valid_set's multi_error: 0.1692
+[46]	valid_set's multi_error: 0.1692
+[47]	valid_set's multi_error: 0.1684
+[48]	valid_set's multi_error: 0.1692
+[49]	valid_set's multi_error: 0.168
+[50]	valid_set's multi_error: 0.1656
+[51]	valid_set's multi_error: 0.1656
+[52]	valid_set's multi_error: 0.1672
+[53]	valid_set's multi_error: 0.164
+[54]	valid_set's multi_error: 0.1648
+[55]	valid_set's multi_error: 0.164
+[56]	valid_set's multi_error: 0.162
+[57]	valid_set's multi_error: 0.16
+[58]	valid_set's multi_error: 0.1612
+[59]	valid_set's multi_error: 0.1584
+[60]	valid_set's multi_error: 0.1588
+[61]	valid_set's multi_error: 0.158
+[62]	valid_set's multi_error: 0.1588
+[63]	valid_set's multi_error: 0.16
+[64]	valid_set's multi_error: 0.1596
+[65]	valid_set's multi_error: 0.158
+[66]	valid_set's multi_error: 0.1576
+[67]	valid_set's multi_error: 0.1568
+[68]	valid_set's multi_error: 0.1584
+[69]	valid_set's multi_error: 0.156
+[70]	valid_set's multi_error: 0.156
+[71]	valid_set's multi_error: 0.1572
+[72]	valid_set's multi_error: 0.156
+[73]	valid_set's multi_error: 0.154
+[74]	valid_set's multi_error: 0.1536
+[75]	valid_set's multi_error: 0.1536
+[76]	valid_set's multi_error: 0.1516
+[77]	valid_set's multi_error: 0.1524
+[78]	valid_set's multi_error: 0.152
+[79]	valid_set's multi_error: 0.1516
+[80]	valid_set's multi_error: 0.152
+[81]	valid_set's multi_error: 0.1524
+[82]	valid_set's multi_error: 0.1512
+[83]	valid_set's multi_error: 0.1512
+[84]	valid_set's multi_error: 0.1508
+[85]	valid_set's multi_error: 0.1516
+[86]	valid_set's multi_error: 0.152
+[87]	valid_set's multi_error: 0.1508
+[88]	valid_set's multi_error: 0.1512
+[89]	valid_set's multi_error: 0.1512
+[90]	valid_set's multi_error: 0.1528
+[91]	valid_set's multi_error: 0.154
+[92]	valid_set's multi_error: 0.1532
+[93]	valid_set's multi_error: 0.1536
+[94]	valid_set's multi_error: 0.1528
+[95]	valid_set's multi_error: 0.1536
+[96]	valid_set's multi_error: 0.1524
+[97]	valid_set's multi_error: 0.1536
+[98]	valid_set's multi_error: 0.1536
+[99]	valid_set's multi_error: 0.1532
+[100]	valid_set's multi_error: 0.1536
+[101]	valid_set's multi_error: 0.152
+[102]	valid_set's multi_error: 0.1508
+[103]	valid_set's multi_error: 0.1508
+[104]	valid_set's multi_error: 0.154
+[105]	valid_set's multi_error: 0.1544
+[106]	valid_set's multi_error: 0.1536
+[107]	valid_set's multi_error: 0.1524
+[108]	valid_set's multi_error: 0.1544
+[109]	valid_set's multi_error: 0.1536
+[110]	valid_set's multi_error: 0.154
+[111]	valid_set's multi_error: 0.1532
+[112]	valid_set's multi_error: 0.1532
+[113]	valid_set's multi_error: 0.1524
+[114]	valid_set's multi_error: 0.1544
+[115]	valid_set's multi_error: 0.1536
+[116]	valid_set's multi_error: 0.1536
+[117]	valid_set's multi_error: 0.154
+[118]	valid_set's multi_error: 0.1532
+[119]	valid_set's multi_error: 0.154
+[120]	valid_set's multi_error: 0.1536
+[121]	valid_set's multi_error: 0.154
+[122]	valid_set's multi_error: 0.1536
+[123]	valid_set's multi_error: 0.1532
+[124]	valid_set's multi_error: 0.1528
+[125]	valid_set's multi_error: 0.1532
+[126]	valid_set's multi_error: 0.152
+[127]	valid_set's multi_error: 0.1524
+[128]	valid_set's multi_error: 0.1512
+[129]	valid_set's multi_error: 0.1516
+[130]	valid_set's multi_error: 0.1512
+[131]	valid_set's multi_error: 0.1504
+[132]	valid_set's multi_error: 0.1508
+[133]	valid_set's multi_error: 0.1508
+[134]	valid_set's multi_error: 0.1496
+[135]	valid_set's multi_error: 0.15
+[136]	valid_set's multi_error: 0.15
+[137]	valid_set's multi_error: 0.1504
+[138]	valid_set's multi_error: 0.1496
+[139]	valid_set's multi_error: 0.1516
+[140]	valid_set's multi_error: 0.1512
+[141]	valid_set's multi_error: 0.1508
+[142]	valid_set's multi_error: 0.1508
+[143]	valid_set's multi_error: 0.1508
+[144]	valid_set's multi_error: 0.1504
+[145]	valid_set's multi_error: 0.15
+[146]	valid_set's multi_error: 0.1504
+[147]	valid_set's multi_error: 0.1496
+[148]	valid_set's multi_error: 0.15
+[149]	valid_set's multi_error: 0.1496
+[150]	valid_set's multi_error: 0.1488
+[151]	valid_set's multi_error: 0.1488
+[152]	valid_set's multi_error: 0.1496
+[153]	valid_set's multi_error: 0.1512
+[154]	valid_set's multi_error: 0.1512
+[155]	valid_set's multi_error: 0.15
+[156]	valid_set's multi_error: 0.1492
+[157]	valid_set's multi_error: 0.148
+[158]	valid_set's multi_error: 0.148
+[159]	valid_set's multi_error: 0.1484
+[160]	valid_set's multi_error: 0.1484
+[161]	valid_set's multi_error: 0.1484
+[162]	valid_set's multi_error: 0.1476
+[163]	valid_set's multi_error: 0.1484
+[164]	valid_set's multi_error: 0.1488
+[165]	valid_set's multi_error: 0.148
+[166]	valid_set's multi_error: 0.1476
+[167]	valid_set's multi_error: 0.1468
+[168]	valid_set's multi_error: 0.1468
+[169]	valid_set's multi_error: 0.1472
+[170]	valid_set's multi_error: 0.1468
+[171]	valid_set's multi_error: 0.1464
+[172]	valid_set's multi_error: 0.146
+[173]	valid_set's multi_error: 0.1464
+[174]	valid_set's multi_error: 0.1472
+[175]	valid_set's multi_error: 0.1476
+[176]	valid_set's multi_error: 0.1464
+[177]	valid_set's multi_error: 0.1468
+[178]	valid_set's multi_error: 0.1472
+[179]	valid_set's multi_error: 0.1472
+[180]	valid_set's multi_error: 0.1464
+[181]	valid_set's multi_error: 0.1468
+[182]	valid_set's multi_error: 0.1468
+[183]	valid_set's multi_error: 0.1476
+[184]	valid_set's multi_error: 0.1472
+[185]	valid_set's multi_error: 0.1484
+[186]	valid_set's multi_error: 0.1484
+[187]	valid_set's multi_error: 0.1476
+[188]	valid_set's multi_error: 0.148
+[189]	valid_set's multi_error: 0.148
+[190]	valid_set's multi_error: 0.148
+[191]	valid_set's multi_error: 0.148
+[192]	valid_set's multi_error: 0.148
+[193]	valid_set's multi_error: 0.1476
+[194]	valid_set's multi_error: 0.1468
+[195]	valid_set's multi_error: 0.1464
+[196]	valid_set's multi_error: 0.1456
+[197]	valid_set's multi_error: 0.1456
+[198]	valid_set's multi_error: 0.1464
+[199]	valid_set's multi_error: 0.146
+[200]	valid_set's multi_error: 0.1456
+[201]	valid_set's multi_error: 0.1448
+[202]	valid_set's multi_error: 0.1452
+[203]	valid_set's multi_error: 0.146
+[204]	valid_set's multi_error: 0.1444
+[205]	valid_set's multi_error: 0.1456
+[206]	valid_set's multi_error: 0.1448
+[207]	valid_set's multi_error: 0.1444
+[208]	valid_set's multi_error: 0.1452
+[209]	valid_set's multi_error: 0.1452
+[210]	valid_set's multi_error: 0.1444
+[211]	valid_set's multi_error: 0.1448
+[212]	valid_set's multi_error: 0.1456
+[213]	valid_set's multi_error: 0.146
+[214]	valid_set's multi_error: 0.146
+[215]	valid_set's multi_error: 0.1448
+[216]	valid_set's multi_error: 0.1448
+[217]	valid_set's multi_error: 0.1444
+[218]	valid_set's multi_error: 0.1452
+[219]	valid_set's multi_error: 0.1448
+[220]	valid_set's multi_error: 0.1444
+[221]	valid_set's multi_error: 0.1448
+[222]	valid_set's multi_error: 0.1444
+[223]	valid_set's multi_error: 0.1452
+[224]	valid_set's multi_error: 0.1448
+[225]	valid_set's multi_error: 0.1448
+[226]	valid_set's multi_error: 0.1444
+[227]	valid_set's multi_error: 0.1444
+[228]	valid_set's multi_error: 0.144
+[229]	valid_set's multi_error: 0.1448
+[230]	valid_set's multi_error: 0.144
+[231]	valid_set's multi_error: 0.144
+[232]	valid_set's multi_error: 0.144
+[233]	valid_set's multi_error: 0.144
+[234]	valid_set's multi_error: 0.144
+[235]	valid_set's multi_error: 0.144
+[236]	valid_set's multi_error: 0.144
+[237]	valid_set's multi_error: 0.1436
+[238]	valid_set's multi_error: 0.1436
+[239]	valid_set's multi_error: 0.1444
+[240]	valid_set's multi_error: 0.1444
+[241]	valid_set's multi_error: 0.1444
+[242]	valid_set's multi_error: 0.1436
+[243]	valid_set's multi_error: 0.144
+[244]	valid_set's multi_error: 0.144
+[245]	valid_set's multi_error: 0.1444
+[246]	valid_set's multi_error: 0.1444
+[247]	valid_set's multi_error: 0.144
+[248]	valid_set's multi_error: 0.1432
+[249]	valid_set's multi_error: 0.1428
+[250]	valid_set's multi_error: 0.1432
+[251]	valid_set's multi_error: 0.1436
+[252]	valid_set's multi_error: 0.1428
+[253]	valid_set's multi_error: 0.1436
+[254]	valid_set's multi_error: 0.1436
+[255]	valid_set's multi_error: 0.1428
+[256]	valid_set's multi_error: 0.1424
+[257]	valid_set's multi_error: 0.1432
+[258]	valid_set's multi_error: 0.1432
+[259]	valid_set's multi_error: 0.1428
+[260]	valid_set's multi_error: 0.1432
+[261]	valid_set's multi_error: 0.144
+[262]	valid_set's multi_error: 0.1432
+[263]	valid_set's multi_error: 0.1436
+[264]	valid_set's multi_error: 0.1432
+[265]	valid_set's multi_error: 0.1432
+[266]	valid_set's multi_error: 0.1432
+[267]	valid_set's multi_error: 0.1428
+[268]	valid_set's multi_error: 0.1432
+[269]	valid_set's multi_error: 0.144
+[270]	valid_set's multi_error: 0.1436
+[271]	valid_set's multi_error: 0.1436
+[272]	valid_set's multi_error: 0.1436
+[273]	valid_set's multi_error: 0.1436
+[274]	valid_set's multi_error: 0.1432
+[275]	valid_set's multi_error: 0.1432
+[276]	valid_set's multi_error: 0.1432
+[277]	valid_set's multi_error: 0.1432
+[278]	valid_set's multi_error: 0.1432
+[279]	valid_set's multi_error: 0.1432
+[280]	valid_set's multi_error: 0.1424
+[281]	valid_set's multi_error: 0.1428
+[282]	valid_set's multi_error: 0.1424
+[283]	valid_set's multi_error: 0.1424
+[284]	valid_set's multi_error: 0.142
+[285]	valid_set's multi_error: 0.142
+[286]	valid_set's multi_error: 0.142
+[287]	valid_set's multi_error: 0.142
+[288]	valid_set's multi_error: 0.1412
+[289]	valid_set's multi_error: 0.142
+[290]	valid_set's multi_error: 0.1424
+[291]	valid_set's multi_error: 0.1424
+[292]	valid_set's multi_error: 0.1428
+[293]	valid_set's multi_error: 0.1424
+[294]	valid_set's multi_error: 0.1428
+[295]	valid_set's multi_error: 0.1424
+[296]	valid_set's multi_error: 0.1424
+[297]	valid_set's multi_error: 0.1424
+[298]	valid_set's multi_error: 0.1424
+[299]	valid_set's multi_error: 0.1424
+[300]	valid_set's multi_error: 0.1424
+[301]	valid_set's multi_error: 0.1424
+[302]	valid_set's multi_error: 0.142
+[303]	valid_set's multi_error: 0.1416
+[304]	valid_set's multi_error: 0.1412
+[305]	valid_set's multi_error: 0.1416
+[306]	valid_set's multi_error: 0.142
+[307]	valid_set's multi_error: 0.1416
+[308]	valid_set's multi_error: 0.1424
+[309]	valid_set's multi_error: 0.1424
+[310]	valid_set's multi_error: 0.1424
+[311]	valid_set's multi_error: 0.142
+[312]	valid_set's multi_error: 0.142
+[313]	valid_set's multi_error: 0.142
+[314]	valid_set's multi_error: 0.142
+[315]	valid_set's multi_error: 0.1424
+[316]	valid_set's multi_error: 0.142
+[317]	valid_set's multi_error: 0.142
+[318]	valid_set's multi_error: 0.142
+[319]	valid_set's multi_error: 0.1424
+[320]	valid_set's multi_error: 0.1424
+[321]	valid_set's multi_error: 0.1424
+[322]	valid_set's multi_error: 0.1428
+[323]	valid_set's multi_error: 0.1424
+[324]	valid_set's multi_error: 0.1428
+[325]	valid_set's multi_error: 0.142
+[326]	valid_set's multi_error: 0.1432
+[327]	valid_set's multi_error: 0.1424
+[328]	valid_set's multi_error: 0.1428
+[329]	valid_set's multi_error: 0.1428
+[330]	valid_set's multi_error: 0.1428
+[331]	valid_set's multi_error: 0.1428
+[332]	valid_set's multi_error: 0.1428
+[333]	valid_set's multi_error: 0.1432
+[334]	valid_set's multi_error: 0.1432
+[335]	valid_set's multi_error: 0.1432
+[336]	valid_set's multi_error: 0.1428
+[337]	valid_set's multi_error: 0.1428
+[338]	valid_set's multi_error: 0.1432
+[339]	valid_set's multi_error: 0.1428
+[340]	valid_set's multi_error: 0.1428
+[341]	valid_set's multi_error: 0.1428
+[342]	valid_set's multi_error: 0.1424
+[343]	valid_set's multi_error: 0.1432
+[344]	valid_set's multi_error: 0.1428
+[345]	valid_set's multi_error: 0.1436
+[346]	valid_set's multi_error: 0.1428
+[347]	valid_set's multi_error: 0.1424
+[348]	valid_set's multi_error: 0.1436
+[349]	valid_set's multi_error: 0.1436
+[350]	valid_set's multi_error: 0.1432
+[351]	valid_set's multi_error: 0.1432
+[352]	valid_set's multi_error: 0.1428
+[353]	valid_set's multi_error: 0.1432
+[354]	valid_set's multi_error: 0.1432
+[355]	valid_set's multi_error: 0.1432
+[356]	valid_set's multi_error: 0.1432
+[357]	valid_set's multi_error: 0.1428
+[358]	valid_set's multi_error: 0.1424
+[359]	valid_set's multi_error: 0.1424
+[360]	valid_set's multi_error: 0.1428
+[361]	valid_set's multi_error: 0.1428
+[362]	valid_set's multi_error: 0.1424
+[363]	valid_set's multi_error: 0.1424
+[364]	valid_set's multi_error: 0.1424
+[365]	valid_set's multi_error: 0.142
+[366]	valid_set's multi_error: 0.142
+[367]	valid_set's multi_error: 0.1424
+[368]	valid_set's multi_error: 0.142
+[369]	valid_set's multi_error: 0.1424
+[370]	valid_set's multi_error: 0.1424
+[371]	valid_set's multi_error: 0.1424
+[372]	valid_set's multi_error: 0.1416
+[373]	valid_set's multi_error: 0.1416
+[374]	valid_set's multi_error: 0.142
+[375]	valid_set's multi_error: 0.1416
+[376]	valid_set's multi_error: 0.142
+[377]	valid_set's multi_error: 0.1416
+[378]	valid_set's multi_error: 0.1416
+[379]	valid_set's multi_error: 0.142
+[380]	valid_set's multi_error: 0.1416
+[381]	valid_set's multi_error: 0.142
+[382]	valid_set's multi_error: 0.1412
+[383]	valid_set's multi_error: 0.1412
+[384]	valid_set's multi_error: 0.1416
+[385]	valid_set's multi_error: 0.1432
+[386]	valid_set's multi_error: 0.1428
+[387]	valid_set's multi_error: 0.1428
+[388]	valid_set's multi_error: 0.1428
+[389]	valid_set's multi_error: 0.1428
+[390]	valid_set's multi_error: 0.142
+[391]	valid_set's multi_error: 0.142
+[392]	valid_set's multi_error: 0.1416
+[393]	valid_set's multi_error: 0.142
+[394]	valid_set's multi_error: 0.1412
+[1]	valid_set's multi_error: 0.2252
+[2]	valid_set's multi_error: 0.2072
+[3]	valid_set's multi_error: 0.1996
+[4]	valid_set's multi_error: 0.194
+[5]	valid_set's multi_error: 0.1896
+[6]	valid_set's multi_error: 0.188
+[7]	valid_set's multi_error: 0.186
+[8]	valid_set's multi_error: 0.1824
+[9]	valid_set's multi_error: 0.1808
+[10]	valid_set's multi_error: 0.1772
+[11]	valid_set's multi_error: 0.1756
+[12]	valid_set's multi_error: 0.1764
+[13]	valid_set's multi_error: 0.1728
+[14]	valid_set's multi_error: 0.1732
+[15]	valid_set's multi_error: 0.1724
+[16]	valid_set's multi_error: 0.1716
+[17]	valid_set's multi_error: 0.1704
+[18]	valid_set's multi_error: 0.1696
+[19]	valid_set's multi_error: 0.1668
+[20]	valid_set's multi_error: 0.1652
+[21]	valid_set's multi_error: 0.1648
+[22]	valid_set's multi_error: 0.164
+[23]	valid_set's multi_error: 0.164
+[24]	valid_set's multi_error: 0.1652
+[25]	valid_set's multi_error: 0.1652
+[26]	valid_set's multi_error: 0.1648
+[27]	valid_set's multi_error: 0.1628
+[28]	valid_set's multi_error: 0.1616
+[29]	valid_set's multi_error: 0.1608
+[30]	valid_set's multi_error: 0.1612
+[31]	valid_set's multi_error: 0.162
+[32]	valid_set's multi_error: 0.1604
+[33]	valid_set's multi_error: 0.1604
+[34]	valid_set's multi_error: 0.1604
+[35]	valid_set's multi_error: 0.158
+[36]	valid_set's multi_error: 0.1576
+[37]	valid_set's multi_error: 0.1564
+[38]	valid_set's multi_error: 0.1568
+[39]	valid_set's multi_error: 0.1552
+[40]	valid_set's multi_error: 0.156
+[41]	valid_set's multi_error: 0.1568
+[42]	valid_set's multi_error: 0.156
+[43]	valid_set's multi_error: 0.1544
+[44]	valid_set's multi_error: 0.1536
+[45]	valid_set's multi_error: 0.1536
+[46]	valid_set's multi_error: 0.1524
+[47]	valid_set's multi_error: 0.1528
+[48]	valid_set's multi_error: 0.1536
+[49]	valid_set's multi_error: 0.1528
+[50]	valid_set's multi_error: 0.1524
+[51]	valid_set's multi_error: 0.1524
+[52]	valid_set's multi_error: 0.1524
+[53]	valid_set's multi_error: 0.1528
+[54]	valid_set's multi_error: 0.1524
+[55]	valid_set's multi_error: 0.1532
+[56]	valid_set's multi_error: 0.1548
+[57]	valid_set's multi_error: 0.1528
+[58]	valid_set's multi_error: 0.1524
+[59]	valid_set's multi_error: 0.1508
+[60]	valid_set's multi_error: 0.1512
+[61]	valid_set's multi_error: 0.152
+[62]	valid_set's multi_error: 0.1508
+[63]	valid_set's multi_error: 0.152
+[64]	valid_set's multi_error: 0.1508
+[65]	valid_set's multi_error: 0.1516
+[66]	valid_set's multi_error: 0.152
+[67]	valid_set's multi_error: 0.1516
+[68]	valid_set's multi_error: 0.1512
+[69]	valid_set's multi_error: 0.1524
+[70]	valid_set's multi_error: 0.152
+[71]	valid_set's multi_error: 0.1528
+[72]	valid_set's multi_error: 0.1516
+[73]	valid_set's multi_error: 0.1488
+[74]	valid_set's multi_error: 0.1484
+[75]	valid_set's multi_error: 0.1472
+[76]	valid_set's multi_error: 0.1484
+[77]	valid_set's multi_error: 0.1496
+[78]	valid_set's multi_error: 0.1488
+[79]	valid_set's multi_error: 0.1492
+[80]	valid_set's multi_error: 0.148
+[81]	valid_set's multi_error: 0.1492
+[82]	valid_set's multi_error: 0.148
+[83]	valid_set's multi_error: 0.1468
+[84]	valid_set's multi_error: 0.1464
+[85]	valid_set's multi_error: 0.1484
+[86]	valid_set's multi_error: 0.148
+[87]	valid_set's multi_error: 0.1476
+[88]	valid_set's multi_error: 0.1476
+[89]	valid_set's multi_error: 0.1492
+[90]	valid_set's multi_error: 0.1476
+[91]	valid_set's multi_error: 0.148
+[92]	valid_set's multi_error: 0.148
+[93]	valid_set's multi_error: 0.1472
+[94]	valid_set's multi_error: 0.1464
+[95]	valid_set's multi_error: 0.1464
+[96]	valid_set's multi_error: 0.1468
+[97]	valid_set's multi_error: 0.1464
+[98]	valid_set's multi_error: 0.1456
+[99]	valid_set's multi_error: 0.1452
+[100]	valid_set's multi_error: 0.1468
+[101]	valid_set's multi_error: 0.1472
+[102]	valid_set's multi_error: 0.146
+[103]	valid_set's multi_error: 0.1456
+[104]	valid_set's multi_error: 0.146
+[105]	valid_set's multi_error: 0.1464
+[106]	valid_set's multi_error: 0.1452
+[107]	valid_set's multi_error: 0.1464
+[108]	valid_set's multi_error: 0.1456
+[109]	valid_set's multi_error: 0.1456
+[110]	valid_set's multi_error: 0.1456
+[111]	valid_set's multi_error: 0.1448
+[112]	valid_set's multi_error: 0.146
+[113]	valid_set's multi_error: 0.1448
+[114]	valid_set's multi_error: 0.144
+[115]	valid_set's multi_error: 0.1448
+[116]	valid_set's multi_error: 0.1448
+[117]	valid_set's multi_error: 0.1448
+[118]	valid_set's multi_error: 0.1444
+[119]	valid_set's multi_error: 0.146
+[120]	valid_set's multi_error: 0.1448
+[121]	valid_set's multi_error: 0.1448
+[122]	valid_set's multi_error: 0.1448
+[123]	valid_set's multi_error: 0.1448
+[124]	valid_set's multi_error: 0.1444
+[125]	valid_set's multi_error: 0.1448
+[126]	valid_set's multi_error: 0.1448
+[127]	valid_set's multi_error: 0.1452
+[128]	valid_set's multi_error: 0.1448
+[129]	valid_set's multi_error: 0.144
+[130]	valid_set's multi_error: 0.1444
+[131]	valid_set's multi_error: 0.1436
+[132]	valid_set's multi_error: 0.1432
+[133]	valid_set's multi_error: 0.1436
+[134]	valid_set's multi_error: 0.1428
+[135]	valid_set's multi_error: 0.142
+[136]	valid_set's multi_error: 0.1416
+[137]	valid_set's multi_error: 0.142
+[138]	valid_set's multi_error: 0.1432
+[139]	valid_set's multi_error: 0.144
+[140]	valid_set's multi_error: 0.1444
+[141]	valid_set's multi_error: 0.1448
+[142]	valid_set's multi_error: 0.1432
+[143]	valid_set's multi_error: 0.1436
+[144]	valid_set's multi_error: 0.1444
+[145]	valid_set's multi_error: 0.1444
+[146]	valid_set's multi_error: 0.1432
+[147]	valid_set's multi_error: 0.1424
+[148]	valid_set's multi_error: 0.1428
+[149]	valid_set's multi_error: 0.1412
+[150]	valid_set's multi_error: 0.1412
+[151]	valid_set's multi_error: 0.142
+[152]	valid_set's multi_error: 0.142
+[153]	valid_set's multi_error: 0.1424
+[154]	valid_set's multi_error: 0.1424
+[155]	valid_set's multi_error: 0.1416
+[156]	valid_set's multi_error: 0.142
+[157]	valid_set's multi_error: 0.1428
+[158]	valid_set's multi_error: 0.1412
+[159]	valid_set's multi_error: 0.1404
+[160]	valid_set's multi_error: 0.142
+[161]	valid_set's multi_error: 0.1416
+[162]	valid_set's multi_error: 0.1416
+[163]	valid_set's multi_error: 0.1416
+[164]	valid_set's multi_error: 0.1424
+[165]	valid_set's multi_error: 0.1424
+[166]	valid_set's multi_error: 0.142
+[167]	valid_set's multi_error: 0.142
+[168]	valid_set's multi_error: 0.1412
+[169]	valid_set's multi_error: 0.1416
+[170]	valid_set's multi_error: 0.1412
+[171]	valid_set's multi_error: 0.1412
+[172]	valid_set's multi_error: 0.1412
+[173]	valid_set's multi_error: 0.1416
+[174]	valid_set's multi_error: 0.1408
+[175]	valid_set's multi_error: 0.1412
+[176]	valid_set's multi_error: 0.1408
+[177]	valid_set's multi_error: 0.1404
+[178]	valid_set's multi_error: 0.1396
+[179]	valid_set's multi_error: 0.1404
+[180]	valid_set's multi_error: 0.1396
+[181]	valid_set's multi_error: 0.1396
+[182]	valid_set's multi_error: 0.1392
+[183]	valid_set's multi_error: 0.1388
+[184]	valid_set's multi_error: 0.1384
+[185]	valid_set's multi_error: 0.1384
+[186]	valid_set's multi_error: 0.1388
+[187]	valid_set's multi_error: 0.1388
+[188]	valid_set's multi_error: 0.1392
+[189]	valid_set's multi_error: 0.1392
+[190]	valid_set's multi_error: 0.14
+[191]	valid_set's multi_error: 0.1404
+[192]	valid_set's multi_error: 0.14
+[193]	valid_set's multi_error: 0.1404
+[194]	valid_set's multi_error: 0.14
+[195]	valid_set's multi_error: 0.1392
+[196]	valid_set's multi_error: 0.1392
+[197]	valid_set's multi_error: 0.14
+[198]	valid_set's multi_error: 0.14
+[199]	valid_set's multi_error: 0.14
+[200]	valid_set's multi_error: 0.1392
+[201]	valid_set's multi_error: 0.14
+[202]	valid_set's multi_error: 0.1408
+[203]	valid_set's multi_error: 0.1408
+[204]	valid_set's multi_error: 0.1412
+[205]	valid_set's multi_error: 0.1412
+[206]	valid_set's multi_error: 0.1404
+[207]	valid_set's multi_error: 0.1404
+[208]	valid_set's multi_error: 0.1404
+[209]	valid_set's multi_error: 0.1404
+[210]	valid_set's multi_error: 0.14
+[211]	valid_set's multi_error: 0.14
+[212]	valid_set's multi_error: 0.14
+[213]	valid_set's multi_error: 0.1404
+[214]	valid_set's multi_error: 0.1404
+[215]	valid_set's multi_error: 0.1408
+[216]	valid_set's multi_error: 0.1404
+[217]	valid_set's multi_error: 0.1408
+[218]	valid_set's multi_error: 0.14
+[219]	valid_set's multi_error: 0.1404
+[220]	valid_set's multi_error: 0.1408
+[221]	valid_set's multi_error: 0.1396
+[222]	valid_set's multi_error: 0.1404
+[223]	valid_set's multi_error: 0.1396
+[224]	valid_set's multi_error: 0.1396
+[225]	valid_set's multi_error: 0.1404
+[226]	valid_set's multi_error: 0.14
+[227]	valid_set's multi_error: 0.1404
+[228]	valid_set's multi_error: 0.1396
+[229]	valid_set's multi_error: 0.1396
+[230]	valid_set's multi_error: 0.1396
+[231]	valid_set's multi_error: 0.1392
+[232]	valid_set's multi_error: 0.1392
+[233]	valid_set's multi_error: 0.1388
+[234]	valid_set's multi_error: 0.1388
+[235]	valid_set's multi_error: 0.1384
+[236]	valid_set's multi_error: 0.1388
+[237]	valid_set's multi_error: 0.1388
+[238]	valid_set's multi_error: 0.1384
+[239]	valid_set's multi_error: 0.1384
+[240]	valid_set's multi_error: 0.1396
+[241]	valid_set's multi_error: 0.14
+[242]	valid_set's multi_error: 0.14
+[243]	valid_set's multi_error: 0.1388
+[244]	valid_set's multi_error: 0.1392
+[245]	valid_set's multi_error: 0.1388
+[246]	valid_set's multi_error: 0.1384
+[247]	valid_set's multi_error: 0.1384
+[248]	valid_set's multi_error: 0.1388
+[249]	valid_set's multi_error: 0.1388
+[250]	valid_set's multi_error: 0.1388
+[251]	valid_set's multi_error: 0.1384
+[252]	valid_set's multi_error: 0.1388
+[253]	valid_set's multi_error: 0.1388
+[254]	valid_set's multi_error: 0.1392
+[255]	valid_set's multi_error: 0.1396
+[256]	valid_set's multi_error: 0.1388
+[257]	valid_set's multi_error: 0.1392
+[258]	valid_set's multi_error: 0.1392
+[259]	valid_set's multi_error: 0.1384
+0:	learn: 0.6524348	test: 0.6480000	best: 0.6480000 (0)	total: 1m 47s	remaining: 12d 9h 16m 39s
+1:	learn: 0.6751478	test: 0.6700000	best: 0.6700000 (1)	total: 3m 33s	remaining: 12d 9h 5m 33s
+2:	learn: 0.6944696	test: 0.6892000	best: 0.6892000 (2)	total: 5m 20s	remaining: 12d 8h 17m 9s
+3:	learn: 0.7009565	test: 0.6960000	best: 0.6960000 (3)	total: 7m 6s	remaining: 12d 8h 18m 32s
+4:	learn: 0.7104000	test: 0.7040000	best: 0.7040000 (4)	total: 8m 53s	remaining: 12d 8h 4m 15s
+5:	learn: 0.7086435	test: 0.6960000	best: 0.7040000 (4)	total: 10m 39s	remaining: 12d 7h 54m 24s
+6:	learn: 0.7101739	test: 0.6996000	best: 0.7040000 (4)	total: 12m 25s	remaining: 12d 7h 46m 22s
+7:	learn: 0.7122087	test: 0.7000000	best: 0.7040000 (4)	total: 14m 12s	remaining: 12d 7h 40m 41s
+8:	learn: 0.7174783	test: 0.7036000	best: 0.7040000 (4)	total: 15m 58s	remaining: 12d 7h 32m 16s
+9:	learn: 0.7222783	test: 0.7072000	best: 0.7072000 (9)	total: 17m 44s	remaining: 12d 7h 28m
+10:	learn: 0.7233913	test: 0.7088000	best: 0.7088000 (10)	total: 19m 30s	remaining: 12d 7h 17m 43s
+11:	learn: 0.7260348	test: 0.7136000	best: 0.7136000 (11)	total: 21m 16s	remaining: 12d 7h 11m 50s
+12:	learn: 0.7272522	test: 0.7144000	best: 0.7144000 (12)	total: 23m 3s	remaining: 12d 7h 10m 41s
+13:	learn: 0.7354783	test: 0.7212000	best: 0.7212000 (13)	total: 24m 49s	remaining: 12d 7h 7m 48s
+14:	learn: 0.7425565	test: 0.7304000	best: 0.7304000 (14)	total: 26m 36s	remaining: 12d 7h 7m 6s
+15:	learn: 0.7471130	test: 0.7348000	best: 0.7348000 (15)	total: 28m 22s	remaining: 12d 7h 4m 42s
+16:	learn: 0.7490435	test: 0.7364000	best: 0.7364000 (16)	total: 30m 8s	remaining: 12d 7h 3m 16s
+
+bestTest = 0.7364
+bestIteration = 16
+
+Shrink model to first 17 iterations.
+[0]	validation_0-merror:0.21920
+[1]	validation_0-merror:0.20160
+[2]	validation_0-merror:0.18880
+[3]	validation_0-merror:0.18680
+[4]	validation_0-merror:0.18480
+[5]	validation_0-merror:0.18200
+[6]	validation_0-merror:0.17760
+[7]	validation_0-merror:0.17680
+[8]	validation_0-merror:0.17640
+[9]	validation_0-merror:0.17160
+[10]	validation_0-merror:0.17240
+[11]	validation_0-merror:0.17000
+[12]	validation_0-merror:0.16920
+[13]	validation_0-merror:0.16720
+[14]	validation_0-merror:0.16400
+[15]	validation_0-merror:0.16360
+[16]	validation_0-merror:0.16040
+[17]	validation_0-merror:0.15880
+[18]	validation_0-merror:0.15800
+[19]	validation_0-merror:0.15760
+[20]	validation_0-merror:0.15640
+[21]	validation_0-merror:0.15560
+[22]	validation_0-merror:0.15560
+[23]	validation_0-merror:0.15600
+[24]	validation_0-merror:0.15160
+[25]	validation_0-merror:0.14920
+[26]	validation_0-merror:0.14840
+[27]	validation_0-merror:0.14680
+[28]	validation_0-merror:0.14800
+[29]	validation_0-merror:0.14680
+[30]	validation_0-merror:0.14600
+[31]	validation_0-merror:0.14480
+[32]	validation_0-merror:0.14760
+[33]	validation_0-merror:0.14760
+[34]	validation_0-merror:0.14760
+[35]	validation_0-merror:0.14480
+[36]	validation_0-merror:0.14440
+[37]	validation_0-merror:0.14320
+[38]	validation_0-merror:0.14160
+[39]	validation_0-merror:0.13920
+[40]	validation_0-merror:0.14000
+[41]	validation_0-merror:0.13920
+[42]	validation_0-merror:0.13760
+[43]	validation_0-merror:0.13760
+[44]	validation_0-merror:0.13760
+[45]	validation_0-merror:0.13640
+[46]	validation_0-merror:0.13600
+[47]	validation_0-merror:0.13680
+[48]	validation_0-merror:0.13640
+[49]	validation_0-merror:0.13720
+[50]	validation_0-merror:0.13520
+[51]	validation_0-merror:0.13400
+[52]	validation_0-merror:0.13480
+[53]	validation_0-merror:0.13440
+[54]	validation_0-merror:0.13440
+[55]	validation_0-merror:0.13520
+[56]	validation_0-merror:0.13480
+[57]	validation_0-merror:0.13400
+[58]	validation_0-merror:0.13360
+[59]	validation_0-merror:0.13120
+[60]	validation_0-merror:0.13080
+[61]	validation_0-merror:0.13000
+[62]	validation_0-merror:0.13040
+[63]	validation_0-merror:0.13000
+[64]	validation_0-merror:0.12960
+[65]	validation_0-merror:0.12880
+[66]	validation_0-merror:0.12840
+[67]	validation_0-merror:0.12840
+[68]	validation_0-merror:0.12720
+[69]	validation_0-merror:0.12600
+[70]	validation_0-merror:0.12560
+[71]	validation_0-merror:0.12640
+[72]	validation_0-merror:0.12520
+[73]	validation_0-merror:0.12520
+[74]	validation_0-merror:0.12480
+[75]	validation_0-merror:0.12440
+[76]	validation_0-merror:0.12440
+[77]	validation_0-merror:0.12440
+[78]	validation_0-merror:0.12360
+[79]	validation_0-merror:0.12440
+[80]	validation_0-merror:0.12360
+[81]	validation_0-merror:0.12440
+[82]	validation_0-merror:0.12480
+[83]	validation_0-merror:0.12360
+[84]	validation_0-merror:0.12240
+[85]	validation_0-merror:0.12200
+[86]	validation_0-merror:0.12120
+[87]	validation_0-merror:0.12160
+[88]	validation_0-merror:0.12080
+[89]	validation_0-merror:0.12120
+[90]	validation_0-merror:0.12040
+[91]	validation_0-merror:0.11920
+[92]	validation_0-merror:0.11920
+[93]	validation_0-merror:0.11880
+[94]	validation_0-merror:0.11920
+[95]	validation_0-merror:0.12000
+[96]	validation_0-merror:0.11920
+[97]	validation_0-merror:0.11960
+[98]	validation_0-merror:0.11960
+[99]	validation_0-merror:0.11840
+[100]	validation_0-merror:0.11840
+[101]	validation_0-merror:0.11880
+[102]	validation_0-merror:0.11840
+[103]	validation_0-merror:0.11800
+[104]	validation_0-merror:0.11760
+[105]	validation_0-merror:0.11720
+[106]	validation_0-merror:0.11800
+[107]	validation_0-merror:0.11760
+[108]	validation_0-merror:0.11640
+[109]	validation_0-merror:0.11600
+[110]	validation_0-merror:0.11640
+[111]	validation_0-merror:0.11640
+[112]	validation_0-merror:0.11680
+[113]	validation_0-merror:0.11600
+[114]	validation_0-merror:0.11600
+[115]	validation_0-merror:0.11600
+[116]	validation_0-merror:0.11640
+[117]	validation_0-merror:0.11640
+[118]	validation_0-merror:0.11440
+[119]	validation_0-merror:0.11520
+[120]	validation_0-merror:0.11480
+[121]	validation_0-merror:0.11560
+[122]	validation_0-merror:0.11600
+[123]	validation_0-merror:0.11560
+Evaluation:
+{'accuracy': 0.8814, 'balanced_accuracy': 0.8814, 'mcc': 0.8684182270373434}
+
+Time taken for execution  since Start: 1:00:39.015242
+
+Time taken for execution  since Last Timing: 1:00:39.006789

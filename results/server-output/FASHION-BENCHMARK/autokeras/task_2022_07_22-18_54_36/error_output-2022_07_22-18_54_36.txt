@@ -1,0 +1,2 @@
+/usr/local/lib/python3.8/dist-packages/keras_tuner/engine/metrics_tracking.py:105: RuntimeWarning: All-NaN axis encountered
+  return np.nanmin(values)

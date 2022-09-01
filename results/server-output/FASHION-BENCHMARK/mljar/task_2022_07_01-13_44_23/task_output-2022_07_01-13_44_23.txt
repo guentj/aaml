@@ -1,0 +1,792 @@
+Linear algorithm was disabled.
+Disable stacking for split validation
+AutoML directory: AutoML_1
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 3 models
+1_DecisionTree logloss 1.244102 trained in 14.19 seconds
+2_DecisionTree logloss 0.97432 trained in 17.02 seconds
+3_DecisionTree logloss 0.97432 trained in 15.75 seconds
+* Step default_algorithms will try to check up to 4 models
+4_Default_LightGBM logloss 0.253102 trained in 15335.32 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.253102 trained in 0.41 seconds
+AutoML fit time: 15389.45 seconds
+AutoML best model: 4_Default_LightGBM
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.970967      0.000007      0.000450  ...  2.692814e-05  6.706394e-06      0
+1      0.000006      0.999979      0.000002  ...  2.793745e-07  4.857025e-08      1
+2      0.003207      0.000019      0.934694  ...  2.326614e-05  1.412016e-05      2
+3      0.011944      0.000081      0.930866  ...  1.639394e-03  1.802779e-05      2
+4      0.017729      0.001481      0.064196  ...  5.036594e-04  2.038658e-04      3
+
+[5 rows x 11 columns]
+Clean Test accuracy 100%: 0.9079
+
+Time taken for execution  since Start: 4:16:33.586275
+
+Time taken for execution  since Last Timing: 4:16:33.577899
+Disable stacking for split validation
+AutoML directory: AutoML_2
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.287925 trained in 1.9 seconds
+2_DecisionTree logloss 1.076892 trained in 1.89 seconds
+3_DecisionTree logloss 1.076892 trained in 1.87 seconds
+4_Linear logloss 0.916808 trained in 16.63 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.442511 trained in 5978.96 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.408345 trained in 0.19 seconds
+AutoML fit time: 6006.86 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.829120      0.001875      0.001898  ...      0.003265      0.001876      0
+1      0.000316      0.997145      0.000318  ...      0.000312      0.000313      1
+2      0.011815      0.003101      0.928273  ...      0.003414      0.003144      2
+3      0.020221      0.004975      0.476174  ...      0.015817      0.004228      2
+4      0.022912      0.145409      0.028100  ...      0.027250      0.024519      3
+
+[5 rows x 11 columns]
+Clean Test accuracy 10%: 0.8607
+
+Time taken for execution  since Start: 5:56:46.507711
+
+Time taken for execution  since Last Timing: 1:40:12.921436
+For epsilon = 4 and poison percentage = 0.1
+
+Loading benchmark model ...
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 10.0% Malicious Data and 90.0% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_3
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.282456 trained in 1.65 seconds
+2_DecisionTree logloss 1.088171 trained in 1.73 seconds
+3_DecisionTree logloss 1.088171 trained in 1.73 seconds
+4_Linear logloss 0.852837 trained in 14.99 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.442173 trained in 3792.3 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.400633 trained in 0.19 seconds
+AutoML fit time: 3817.63 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.873014      0.000967      0.000983  ...      0.001160      0.000966      0
+1      0.000344      0.996855      0.000347  ...      0.000340      0.000342      1
+2      0.004563      0.002893      0.949932  ...      0.002664      0.002666      2
+3      0.025261      0.006203      0.538726  ...      0.011233      0.003940      2
+4      0.026920      0.288840      0.032373  ...      0.036015      0.025301      3
+
+[5 rows x 11 columns]
+For epsilon = 4 and poison percentage = 0.1
+Test accuracy: 0.8592
+For epsilon = 4 and poison percentage = 0.1
+
+Time taken for execution  since Start: 7:00:28.250146
+
+Time taken for execution  since Last Timing: 1:03:41.742435
+For epsilon = 4 and poison percentage = 0.5
+
+Loading benchmark model ...
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 50.0% Malicious Data and 50.0% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_4
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.283681 trained in 1.82 seconds
+2_DecisionTree logloss 1.075157 trained in 1.75 seconds
+3_DecisionTree logloss 1.075157 trained in 1.75 seconds
+4_Linear logloss 0.787838 trained in 14.86 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.358291 trained in 3977.3 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.335081 trained in 0.19 seconds
+AutoML fit time: 4002.65 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.904004      0.001151      0.001146  ...      0.002071      0.001149      0
+1      0.000214      0.998071      0.000215  ...      0.000212      0.000213      1
+2      0.003066      0.001981      0.961367  ...      0.001978      0.001981      2
+3      0.064194      0.015717      0.305990  ...      0.029394      0.013254      2
+4      0.024477      0.178216      0.024260  ...      0.022084      0.021253      6
+
+[5 rows x 11 columns]
+For epsilon = 4 and poison percentage = 0.5
+Test accuracy: 0.8502
+For epsilon = 4 and poison percentage = 0.5
+
+Time taken for execution  since Start: 8:07:14.527918
+
+Time taken for execution  since Last Timing: 1:06:46.277772
+For epsilon = 4 and poison percentage = 0.9
+
+Loading benchmark model ...
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 90.0% Malicious Data and 9.999999999999998% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_5
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.268438 trained in 1.85 seconds
+2_DecisionTree logloss 1.126902 trained in 1.8 seconds
+3_DecisionTree logloss 1.126902 trained in 1.8 seconds
+4_Linear logloss 0.505682 trained in 14.55 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.200879 trained in 4311.96 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.195733 trained in 0.19 seconds
+AutoML fit time: 4337.08 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.172066      0.000622      0.000717  ...      0.000776      0.000622      6
+1      0.000103      0.999058      0.000103  ...      0.000103      0.000103      1
+2      0.000892      0.000537      0.991916  ...      0.000525      0.000469      2
+3      0.243308      0.003276      0.665547  ...      0.004381      0.011752      2
+4      0.010816      0.276618      0.018270  ...      0.011033      0.010218      4
+
+[5 rows x 11 columns]
+For epsilon = 4 and poison percentage = 0.9
+Test accuracy: 0.8186
+For epsilon = 4 and poison percentage = 0.9
+
+Time taken for execution  since Start: 9:19:35.151228
+
+Time taken for execution  since Last Timing: 1:12:20.623310
+For epsilon = 4 and poison percentage = 1
+
+Loading benchmark model ...
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0% Antipoison Data, 100% Malicious Data and 0% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_6
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.281005 trained in 1.87 seconds
+2_DecisionTree logloss 1.07289 trained in 1.8 seconds
+3_DecisionTree logloss 1.07289 trained in 1.8 seconds
+4_Linear logloss 0.418747 trained in 13.84 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.128434 trained in 4309.3 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.128434 trained in 0.25 seconds
+AutoML fit time: 4334.22 seconds
+AutoML best model: 5_Default_LightGBM
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0  3.093221e-01      0.007525  4.109149e-03  ...  1.437715e-02  2.773682e-03      6
+1  2.510299e-08      0.999999  1.318597e-08  ...  2.075658e-08  2.428967e-08      1
+2  1.233271e-02      0.024005  8.774960e-02  ...  2.528110e-02  1.950368e-02      6
+3  5.754803e-03      0.000130  2.366993e-03  ...  5.604299e-04  1.014082e-04      6
+4  3.048571e-03      0.420580  7.948225e-03  ...  2.031657e-03  1.316057e-03      3
+
+[5 rows x 11 columns]
+For epsilon = 4 and poison percentage = 1
+Test accuracy: 0.5645
+For epsilon = 4 and poison percentage = 1
+
+Time taken for execution  since Start: 10:31:51.342445
+
+Time taken for execution  since Last Timing: 1:12:16.191217
+For epsilon = 8 and poison percentage = 0.1
+
+Loading benchmark model ...
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 10.0% Malicious Data and 90.0% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_7
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.278004 trained in 1.82 seconds
+2_DecisionTree logloss 1.086619 trained in 1.73 seconds
+3_DecisionTree logloss 1.086619 trained in 1.74 seconds
+4_Linear logloss 0.903308 trained in 14.81 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.451457 trained in 4307.95 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.418249 trained in 0.22 seconds
+AutoML fit time: 4333.3 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.882377      0.001756      0.001785  ...      0.002338      0.001757      0
+1      0.000377      0.996577      0.000379  ...      0.000372      0.000374      1
+2      0.003535      0.002206      0.951171  ...      0.002207      0.002209      2
+3      0.050715      0.010501      0.498888  ...      0.011328      0.005746      2
+4      0.023485      0.203406      0.025395  ...      0.024958      0.023632      3
+
+[5 rows x 11 columns]
+For epsilon = 8 and poison percentage = 0.1
+Test accuracy: 0.8579
+For epsilon = 8 and poison percentage = 0.1
+
+Time taken for execution  since Start: 11:44:08.614501
+
+Time taken for execution  since Last Timing: 1:12:17.272056
+For epsilon = 8 and poison percentage = 0.5
+
+Loading benchmark model ...
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 50.0% Malicious Data and 50.0% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_8
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.277081 trained in 1.95 seconds
+2_DecisionTree logloss 1.095718 trained in 1.87 seconds
+3_DecisionTree logloss 1.095718 trained in 1.87 seconds
+4_Linear logloss 0.802056 trained in 15.77 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.355675 trained in 4352.56 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.339564 trained in 0.19 seconds
+AutoML fit time: 4379.16 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.837983      0.001266      0.001576  ...      0.001881      0.001263      0
+1      0.000401      0.996331      0.000403  ...      0.000397      0.000399      1
+2      0.001614      0.001117      0.987587  ...      0.000770      0.000771      2
+3      0.054318      0.037119      0.207346  ...      0.029958      0.026757      6
+4      0.035755      0.202685      0.072290  ...      0.033069      0.033130      4
+
+[5 rows x 11 columns]
+For epsilon = 8 and poison percentage = 0.5
+Test accuracy: 0.8454
+For epsilon = 8 and poison percentage = 0.5
+
+Time taken for execution  since Start: 12:57:11.306448
+
+Time taken for execution  since Last Timing: 1:13:02.691947
+For epsilon = 8 and poison percentage = 0.9
+
+Loading benchmark model ...
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 90.0% Malicious Data and 9.999999999999998% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_9
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.27651 trained in 1.89 seconds
+2_DecisionTree logloss 1.095256 trained in 1.83 seconds
+3_DecisionTree logloss 1.09825 trained in 1.84 seconds
+4_Linear logloss 0.460662 trained in 14.88 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.230378 trained in 4887.28 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.214098 trained in 0.19 seconds
+AutoML fit time: 4913.01 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.266290      0.001073      0.001271  ...      0.001394      0.001071      6
+1      0.000039      0.999632      0.000039  ...      0.000039      0.000039      1
+2      0.000266      0.000378      0.993774  ...      0.000214      0.000196      2
+3      0.253799      0.006578      0.513171  ...      0.007652      0.022134      2
+4      0.025401      0.169651      0.067613  ...      0.019135      0.019161      3
+
+[5 rows x 11 columns]
+For epsilon = 8 and poison percentage = 0.9
+Test accuracy: 0.8178
+For epsilon = 8 and poison percentage = 0.9
+
+Time taken for execution  since Start: 14:19:07.766781
+
+Time taken for execution  since Last Timing: 1:21:56.460333
+For epsilon = 8 and poison percentage = 1
+
+Loading benchmark model ...
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0% Antipoison Data, 100% Malicious Data and 0% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_10
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.286607 trained in 1.88 seconds
+2_DecisionTree logloss 1.079663 trained in 1.83 seconds
+3_DecisionTree logloss 1.079663 trained in 1.84 seconds
+4_Linear logloss 0.388814 trained in 14.21 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.141891 trained in 3846.43 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.141657 trained in 0.19 seconds
+AutoML fit time: 3871.28 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.337754      0.008955      0.015007  ...      0.012842      0.008961      6
+1      0.000003      0.999936      0.000003  ...      0.000003      0.000003      1
+2      0.007732      0.014969      0.292397  ...      0.012999      0.007230      6
+3      0.201248      0.000259      0.002101  ...      0.000355      0.001345      6
+4      0.099802      0.223671      0.015988  ...      0.007497      0.006629      3
+
+[5 rows x 11 columns]
+For epsilon = 8 and poison percentage = 1
+Test accuracy: 0.6059
+For epsilon = 8 and poison percentage = 1
+
+Time taken for execution  since Start: 15:23:42.527695
+
+Time taken for execution  since Last Timing: 1:04:34.760914
+For epsilon = 16 and poison percentage = 0.1
+
+Loading benchmark model ...
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 10.0% Malicious Data and 90.0% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_11
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.307189 trained in 1.79 seconds
+2_DecisionTree logloss 1.139872 trained in 1.71 seconds
+3_DecisionTree logloss 1.12009 trained in 1.72 seconds
+4_Linear logloss 0.908879 trained in 14.93 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.450668 trained in 3811.45 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.410823 trained in 0.19 seconds
+AutoML fit time: 3836.7 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.825256      0.001721      0.001927  ...      0.001712      0.001720      0
+1      0.000415      0.996220      0.000414  ...      0.000407      0.000408      1
+2      0.003827      0.002889      0.956260  ...      0.002057      0.002059      2
+3      0.027502      0.006798      0.583213  ...      0.010762      0.005844      2
+4      0.027357      0.173502      0.047963  ...      0.023134      0.020498      3
+
+[5 rows x 11 columns]
+For epsilon = 16 and poison percentage = 0.1
+Test accuracy: 0.8534
+For epsilon = 16 and poison percentage = 0.1
+
+Time taken for execution  since Start: 16:27:42.614617
+
+Time taken for execution  since Last Timing: 1:04:00.086922
+For epsilon = 16 and poison percentage = 0.5
+
+Loading benchmark model ...
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 50.0% Malicious Data and 50.0% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_12
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.338105 trained in 1.85 seconds
+2_DecisionTree logloss 1.175979 trained in 1.79 seconds
+3_DecisionTree logloss 1.175979 trained in 1.8 seconds
+4_Linear logloss 0.800102 trained in 14.8 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.396858 trained in 4971.9 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.3665 trained in 0.25 seconds
+AutoML fit time: 4997.81 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.859874      0.000826      0.000831  ...      0.000823      0.000827      0
+1      0.000195      0.998232      0.000196  ...      0.000193      0.000194      1
+2      0.000712      0.000545      0.972918  ...      0.000542      0.000543      2
+3      0.134550      0.042847      0.274498  ...      0.019552      0.015637      2
+4      0.055886      0.232088      0.034609  ...      0.025162      0.025210      4
+
+[5 rows x 11 columns]
+For epsilon = 16 and poison percentage = 0.5
+Test accuracy: 0.8466
+For epsilon = 16 and poison percentage = 0.5
+
+Time taken for execution  since Start: 17:51:04.734765
+
+Time taken for execution  since Last Timing: 1:23:22.120148
+For epsilon = 16 and poison percentage = 0.9
+
+Loading benchmark model ...
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 90.0% Malicious Data and 9.999999999999998% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_13
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.343466 trained in 1.9 seconds
+2_DecisionTree logloss 1.189542 trained in 1.85 seconds
+3_DecisionTree logloss 1.189542 trained in 1.86 seconds
+4_Linear logloss 0.520642 trained in 14.22 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.251856 trained in 4768.99 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.227696 trained in 0.19 seconds
+AutoML fit time: 4794.13 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.182844      0.000994      0.001073  ...      0.001475      0.000995      6
+1      0.000071      0.999369      0.000068  ...      0.000068      0.000068      1
+2      0.000413      0.003921      0.985204  ...      0.000338      0.000338      2
+3      0.286866      0.004269      0.416808  ...      0.007714      0.002778      2
+4      0.090736      0.287039      0.011108  ...      0.007966      0.007993      4
+
+[5 rows x 11 columns]
+For epsilon = 16 and poison percentage = 0.9
+Test accuracy: 0.823
+For epsilon = 16 and poison percentage = 0.9
+
+Time taken for execution  since Start: 19:11:02.367856
+
+Time taken for execution  since Last Timing: 1:19:57.633091
+For epsilon = 16 and poison percentage = 1
+
+Loading benchmark model ...
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0% Antipoison Data, 100% Malicious Data and 0% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_14
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.321782 trained in 1.92 seconds
+2_DecisionTree logloss 1.120631 trained in 1.87 seconds
+3_DecisionTree logloss 1.120631 trained in 1.88 seconds
+4_Linear logloss 0.402461 trained in 15.06 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.185789 trained in 5520.27 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.167437 trained in 0.19 seconds
+AutoML fit time: 5546.27 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.541326      0.007314      0.008829  ...      0.014899      0.007294      0
+1      0.001062      0.908613      0.000627  ...      0.000744      0.000626      1
+2      0.011581      0.237218      0.301091  ...      0.012575      0.011158      6
+3      0.219739      0.000789      0.001580  ...      0.001411      0.000404      6
+4      0.212660      0.359928      0.039462  ...      0.015629      0.011973      1
+
+[5 rows x 11 columns]
+For epsilon = 16 and poison percentage = 1
+Test accuracy: 0.6
+For epsilon = 16 and poison percentage = 1
+
+Time taken for execution  since Start: 20:43:32.140931
+
+Time taken for execution  since Last Timing: 1:32:29.773075
+For epsilon = 64 and poison percentage = 0.1
+
+Loading benchmark model ...
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 10.0% Malicious Data and 90.0% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_15
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.359213 trained in 1.84 seconds
+2_DecisionTree logloss 1.237793 trained in 1.75 seconds
+3_DecisionTree logloss 1.237793 trained in 1.76 seconds
+4_Linear logloss 0.976333 trained in 14.95 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.50916 trained in 4523.04 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.449019 trained in 0.19 seconds
+AutoML fit time: 4548.48 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.921166      0.000985      0.001512  ...      0.001136      0.000986      0
+1      0.000221      0.998065      0.000215  ...      0.000210      0.000211      1
+2      0.002594      0.002567      0.968702  ...      0.002020      0.002023      2
+3      0.097865      0.008253      0.419359  ...      0.012725      0.005372      2
+4      0.012843      0.204642      0.031558  ...      0.012064      0.010243      3
+
+[5 rows x 11 columns]
+For epsilon = 64 and poison percentage = 0.1
+Test accuracy: 0.8515
+For epsilon = 64 and poison percentage = 0.1
+
+Time taken for execution  since Start: 21:59:24.365077
+
+Time taken for execution  since Last Timing: 1:15:52.224146
+For epsilon = 64 and poison percentage = 0.5
+
+Loading benchmark model ...
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 50.0% Malicious Data and 50.0% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_16
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.377992 trained in 1.97 seconds
+2_DecisionTree logloss 1.151993 trained in 1.91 seconds
+3_DecisionTree logloss 1.151993 trained in 1.92 seconds
+4_Linear logloss 0.940278 trained in 15.35 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.457502 trained in 5444.82 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.415764 trained in 0.19 seconds
+AutoML fit time: 5471.09 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.816911      0.001271      0.001391  ...      0.001395      0.001270      0
+1      0.000063      0.999428      0.000063  ...      0.000060      0.000060      1
+2      0.000347      0.000597      0.979213  ...      0.000321      0.000322      2
+3      0.278955      0.004992      0.409462  ...      0.032918      0.005199      2
+4      0.013167      0.183171      0.037028  ...      0.009576      0.009579      4
+
+[5 rows x 11 columns]
+For epsilon = 64 and poison percentage = 0.5
+Test accuracy: 0.8344
+For epsilon = 64 and poison percentage = 0.5
+
+Time taken for execution  since Start: 23:30:38.926360
+
+Time taken for execution  since Last Timing: 1:31:14.561283
+For epsilon = 64 and poison percentage = 0.9
+
+Loading benchmark model ...
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 90.0% Malicious Data and 9.999999999999998% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_17
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.415203 trained in 1.97 seconds
+2_DecisionTree logloss 1.274424 trained in 1.94 seconds
+3_DecisionTree logloss 1.274424 trained in 1.94 seconds
+4_Linear logloss 0.478834 trained in 14.57 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.314857 trained in 4766.15 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.260807 trained in 0.19 seconds
+AutoML fit time: 4791.85 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.238069      0.000196      0.000208  ...      0.000220      0.000197      6
+1      0.000010      0.999896      0.000010  ...      0.000010      0.000010      1
+2      0.000509      0.000561      0.986211  ...      0.000276      0.000259      2
+3      0.770172      0.002547      0.013623  ...      0.002922      0.001967      0
+4      0.019877      0.045470      0.133762  ...      0.006755      0.006758      4
+
+[5 rows x 11 columns]
+For epsilon = 64 and poison percentage = 0.9
+Test accuracy: 0.7858
+For epsilon = 64 and poison percentage = 0.9
+
+Time taken for execution  since Start: 1 day, 0:50:34.203990
+
+Time taken for execution  since Last Timing: 1:19:55.277630
+For epsilon = 64 and poison percentage = 1
+
+Loading benchmark model ...
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0% Antipoison Data, 100% Malicious Data and 0% Clean Data.
+Disable stacking for split validation
+AutoML directory: AutoML_18
+The task is multiclass_classification with evaluation metric logloss
+AutoML will use algorithms: ['Decision Tree', 'Linear', 'Random Forest', 'Extra Trees', 'LightGBM', 'Neural Network', 'Nearest Neighbors']
+AutoML will ensemble available models
+AutoML steps: ['simple_algorithms', 'default_algorithms', 'not_so_random', 'golden_features', 'insert_random_feature', 'features_selection', 'hill_climbing_1', 'hill_climbing_2', 'ensemble']
+* Step simple_algorithms will try to check up to 4 models
+1_DecisionTree logloss 1.402776 trained in 1.96 seconds
+2_DecisionTree logloss 1.261785 trained in 1.91 seconds
+3_DecisionTree logloss 1.261785 trained in 1.92 seconds
+4_Linear logloss 0.369676 trained in 14.42 seconds
+* Step default_algorithms will try to check up to 4 models
+5_Default_LightGBM logloss 0.232594 trained in 5867.02 seconds
+Skip not_so_random because of the time limit.
+Skip golden_features because of the time limit.
+Skip insert_random_feature because of the time limit.
+Skip features_selection because no parameters were generated.
+Skip hill_climbing_1 because of the time limit.
+Skip hill_climbing_2 because of the time limit.
+* Step ensemble will try to check up to 1 model
+Ensemble logloss 0.191701 trained in 0.19 seconds
+AutoML fit time: 5892.67 seconds
+AutoML best model: Ensemble
+   prediction_0  prediction_1  prediction_2  ...  prediction_8  prediction_9  label
+0      0.871118      0.003462      0.004570  ...      0.009363      0.003464      0
+1      0.008704      0.896320      0.005543  ...      0.006442      0.005220      1
+2      0.032278      0.014640      0.594728  ...      0.002725      0.002126      2
+3      0.573049      0.004284      0.014047  ...      0.007270      0.003727      0
+4      0.101421      0.315773      0.335892  ...      0.006931      0.006334      2
+
+[5 rows x 11 columns]
+For epsilon = 64 and poison percentage = 1
+Test accuracy: 0.5637
+For epsilon = 64 and poison percentage = 1
+
+Time taken for execution  since Start: 1 day, 2:28:50.380769
+
+Time taken for execution  since Last Timing: 1:38:16.176779

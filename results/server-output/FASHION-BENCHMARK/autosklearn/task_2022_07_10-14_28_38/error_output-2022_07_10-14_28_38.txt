@@ -1,0 +1,18 @@
+/usr/local/lib/python3.8/dist-packages/autosklearn/metalearning/metalearning/meta_base.py:68: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  self.metafeatures = self.metafeatures.append(metafeatures)
+/usr/local/lib/python3.8/dist-packages/autosklearn/metalearning/metalearning/meta_base.py:72: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+  self.algorithm_runs[metric].append(runs)
+Traceback (most recent call last):
+  File "task.py", line 54, in <module>
+    automl_tmp.fit(x_train_malicious_reshaped, y_train)
+  File "/usr/local/lib/python3.8/dist-packages/autosklearn/estimators.py", line 1045, in fit
+    super().fit(
+  File "/usr/local/lib/python3.8/dist-packages/autosklearn/estimators.py", line 375, in fit
+    self.automl_.fit(load_models=self.load_models, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/autosklearn/automl.py", line 2056, in fit
+    return super().fit(
+  File "/usr/local/lib/python3.8/dist-packages/autosklearn/automl.py", line 808, in fit
+    self.num_run += self._do_dummy_prediction(datamanager, num_run=1)
+  File "/usr/local/lib/python3.8/dist-packages/autosklearn/automl.py", line 476, in _do_dummy_prediction
+    raise ValueError(
+ValueError: Dummy prediction failed with run state StatusType.MEMOUT and additional output: {'error': 'Memout (used more than 16384 MB).', 'configuration_origin': 'DUMMY'}.

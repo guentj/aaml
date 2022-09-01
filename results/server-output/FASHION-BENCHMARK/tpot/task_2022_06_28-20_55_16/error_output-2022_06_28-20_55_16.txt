@@ -1,0 +1,8 @@
+/usr/local/lib/python3.8/dist-packages/sklearn/metrics/_scorer.py:765: FutureWarning: sklearn.metrics.SCORERS is deprecated and will be removed in v1.3. Please use sklearn.metrics.get_scorer_names to get a list of available scorers and sklearn.metrics.get_metric to get scorer.
+  warnings.warn(
+Traceback (most recent call last):
+  File "task_poison.py", line 29, in <module>
+    x_train_malicious = atPot.createPoisonPrePoisoned(x_poisoned,x_antipoison, poison_percent, epsilon, antipoison_percent=0)
+  File "/home/aaml/func/atPoison.py", line 461, in createPoisonPrePoisoned
+    x_final[val] = x_poisoned[val]
+ValueError: could not broadcast input array from shape (28,28) into shape (784,)

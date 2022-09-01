@@ -1,0 +1,185 @@
+10% DATA:
+                 model  score_test  score_val  pred_time_test  pred_time_val     fit_time  pred_time_test_marginal  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0     RandomForestGini      0.8305   0.836667        0.266509       0.187038     1.654773                 0.266509                0.187038           1.654773            1       True          4
+1  WeightedEnsemble_L2      0.8286   0.861667        2.123930       0.555970    13.792906                 0.009258                0.000247           0.173427            2       True         10
+2     RandomForestEntr      0.8285   0.838333        0.406539       0.192611     1.988284                 0.406539                0.192611           1.988284            1       True          5
+3              XGBoost      0.8133   0.840000        1.441625       0.176075     9.976421                 1.441625                0.176075           9.976421            1       True          9
+4      NeuralNetFastAI      0.8117   0.825000        2.946810       0.420613   142.450402                 2.946810                0.420613         142.450402            1       True          1
+5       ExtraTreesGini      0.8104   0.816667        0.286617       0.315690     1.009192                 0.286617                0.315690           1.009192            1       True          7
+6       ExtraTreesEntr      0.8088   0.811667        0.275748       0.196054     1.005080                 0.275748                0.196054           1.005080            1       True          8
+7           LightGBMXT      0.8048   0.825000        0.523667       0.172863    26.180165                 0.523667                0.172863          26.180165            1       True          2
+8             CatBoost      0.8032   0.821667        0.847614       0.373430  3354.507769                 0.847614                0.373430        3354.507769            1       True          6
+9             LightGBM      0.8017   0.831667        0.518086       0.174351    48.503727                 0.518086                0.174351          48.503727            1       True          3
+*** Summary of fit() ***
+Estimated performance of each model:
+                 model  score_val  pred_time_val     fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0  WeightedEnsemble_L2   0.861667       0.555970    13.792906                0.000247           0.173427            2       True         10
+1              XGBoost   0.840000       0.176075     9.976421                0.176075           9.976421            1       True          9
+2     RandomForestEntr   0.838333       0.192611     1.988284                0.192611           1.988284            1       True          5
+3     RandomForestGini   0.836667       0.187038     1.654773                0.187038           1.654773            1       True          4
+4             LightGBM   0.831667       0.174351    48.503727                0.174351          48.503727            1       True          3
+5           LightGBMXT   0.825000       0.172863    26.180165                0.172863          26.180165            1       True          2
+6      NeuralNetFastAI   0.825000       0.420613   142.450402                0.420613         142.450402            1       True          1
+7             CatBoost   0.821667       0.373430  3354.507769                0.373430        3354.507769            1       True          6
+8       ExtraTreesGini   0.816667       0.315690     1.009192                0.315690           1.009192            1       True          7
+9       ExtraTreesEntr   0.811667       0.196054     1.005080                0.196054           1.005080            1       True          8
+Number of models trained: 10
+Types of models trained:
+{'RFModel', 'LGBModel', 'NNFastAiTabularModel', 'XGBoostModel', 'WeightedEnsembleModel', 'XTModel', 'CatBoostModel'}
+Bagging used: False 
+Multi-layer stack-ensembling used: False 
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('category', [])  : 783 | ['2', '3', '4', '5', '6', ...]
+('int', ['bool']) :   1 | ['1']
+*** End of fit() summary ***
+
+Time taken for execution  since Start: 11:01:11.488898
+
+Time taken for execution  since Last Timing: 1:00:25.334831
+
+TARGETED = TRUE
+Eval poison percent = 1, and epsilon = 4
+                 model  score_test  score_val  pred_time_test  pred_time_val     fit_time  pred_time_test_marginal  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0             CatBoost      0.4743   0.880000        0.851084       0.381388  3386.511660                 0.851084                0.381388        3386.511660            1       True          6
+1             LightGBM      0.4666   0.896667        0.380177       0.205302    24.999009                 0.380177                0.205302          24.999009            1       True          3
+2           LightGBMXT      0.4109   0.888333        0.362855       0.200270    16.083239                 0.362855                0.200270          16.083239            1       True          2
+3      NeuralNetFastAI      0.3053   0.915000        2.942690       0.292293   143.344956                 2.942690                0.292293         143.344956            1       True          1
+4  WeightedEnsemble_L2      0.2920   0.916667        4.294679       0.478249   154.526805                 0.011220                0.000251           0.172163            2       True         10
+5              XGBoost      0.2638   0.891667        1.340770       0.185705    11.009686                 1.340770                0.185705          11.009686            1       True          9
+6     RandomForestGini      0.2154   0.883333        0.257906       0.188035     1.664214                 0.257906                0.188035           1.664214            1       True          4
+7       ExtraTreesGini      0.2125   0.876667        0.411744       0.324325     0.999985                 0.411744                0.324325           0.999985            1       True          7
+8       ExtraTreesEntr      0.1999   0.880000        0.257320       0.183727     1.039802                 0.257320                0.183727           1.039802            1       True          8
+9     RandomForestEntr      0.1979   0.878333        0.246346       0.321985     2.253638                 0.246346                0.321985           2.253638            1       True          5
+*** Summary of fit() ***
+Estimated performance of each model:
+                 model  score_val  pred_time_val     fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0  WeightedEnsemble_L2   0.916667       0.478249   154.526805                0.000251           0.172163            2       True         10
+1      NeuralNetFastAI   0.915000       0.292293   143.344956                0.292293         143.344956            1       True          1
+2             LightGBM   0.896667       0.205302    24.999009                0.205302          24.999009            1       True          3
+3              XGBoost   0.891667       0.185705    11.009686                0.185705          11.009686            1       True          9
+4           LightGBMXT   0.888333       0.200270    16.083239                0.200270          16.083239            1       True          2
+5     RandomForestGini   0.883333       0.188035     1.664214                0.188035           1.664214            1       True          4
+6       ExtraTreesEntr   0.880000       0.183727     1.039802                0.183727           1.039802            1       True          8
+7             CatBoost   0.880000       0.381388  3386.511660                0.381388        3386.511660            1       True          6
+8     RandomForestEntr   0.878333       0.321985     2.253638                0.321985           2.253638            1       True          5
+9       ExtraTreesGini   0.876667       0.324325     0.999985                0.324325           0.999985            1       True          7
+Number of models trained: 10
+Types of models trained:
+{'RFModel', 'LGBModel', 'NNFastAiTabularModel', 'XGBoostModel', 'WeightedEnsembleModel', 'XTModel', 'CatBoostModel'}
+Bagging used: False 
+Multi-layer stack-ensembling used: False 
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('category', []) : 784 | ['1', '2', '3', '4', '5', ...]
+*** End of fit() summary ***
+
+TARGETED = TRUE
+Eval poison percent = 1, and epsilon = 64
+                 model  score_test  score_val  pred_time_test  pred_time_val     fit_time  pred_time_test_marginal  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0             CatBoost      0.2458   0.966667        0.943397       0.448580  3331.943486                 0.943397                0.448580        3331.943486            1       True          6
+1           LightGBMXT      0.2429   0.983333        0.416375       0.219728    17.988678                 0.416375                0.219728          17.988678            1       True          2
+2              XGBoost      0.2389   0.971667        1.524521       0.242987    18.785280                 1.524521                0.242987          18.785280            1       True          9
+3             LightGBM      0.2348   0.983333        0.606723       0.236493    43.152728                 0.606723                0.236493          43.152728            1       True          3
+4  WeightedEnsemble_L2      0.2199   0.998333        5.346534       0.548417   188.189319                 0.004163                0.000258           0.171497            2       True         10
+5      NeuralNetFastAI      0.2000   0.996667        4.925997       0.328430   170.029145                 4.925997                0.328430         170.029145            1       True          1
+6     RandomForestGini      0.1113   0.985000        0.274465       0.191154     1.790256                 0.274465                0.191154           1.790256            1       True          4
+7     RandomForestEntr      0.1099   0.985000        0.251405       0.330549     2.277908                 0.251405                0.330549           2.277908            1       True          5
+8       ExtraTreesEntr      0.0994   0.980000        0.417702       0.190704     1.146507                 0.417702                0.190704           1.146507            1       True          8
+9       ExtraTreesGini      0.0987   0.971667        0.272862       0.202091     1.226268                 0.272862                0.202091           1.226268            1       True          7
+*** Summary of fit() ***
+Estimated performance of each model:
+                 model  score_val  pred_time_val     fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0  WeightedEnsemble_L2   0.998333       0.548417   188.189319                0.000258           0.171497            2       True         10
+1      NeuralNetFastAI   0.996667       0.328430   170.029145                0.328430         170.029145            1       True          1
+2     RandomForestGini   0.985000       0.191154     1.790256                0.191154           1.790256            1       True          4
+3     RandomForestEntr   0.985000       0.330549     2.277908                0.330549           2.277908            1       True          5
+4           LightGBMXT   0.983333       0.219728    17.988678                0.219728          17.988678            1       True          2
+5             LightGBM   0.983333       0.236493    43.152728                0.236493          43.152728            1       True          3
+6       ExtraTreesEntr   0.980000       0.190704     1.146507                0.190704           1.146507            1       True          8
+7       ExtraTreesGini   0.971667       0.202091     1.226268                0.202091           1.226268            1       True          7
+8              XGBoost   0.971667       0.242987    18.785280                0.242987          18.785280            1       True          9
+9             CatBoost   0.966667       0.448580  3331.943486                0.448580        3331.943486            1       True          6
+Number of models trained: 10
+Types of models trained:
+{'RFModel', 'LGBModel', 'NNFastAiTabularModel', 'XGBoostModel', 'WeightedEnsembleModel', 'XTModel', 'CatBoostModel'}
+Bagging used: False 
+Multi-layer stack-ensembling used: False 
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('category', []) : 784 | ['1', '2', '3', '4', '5', ...]
+*** End of fit() summary ***
+
+TARGETED = FALSE
+
+Eval poison percent = 1, and epsilon = 4
+                 model  score_test  score_val  pred_time_test  pred_time_val     fit_time  pred_time_test_marginal  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0             CatBoost      0.5179   0.958333        0.858386       0.385534  3373.422971                 0.858386                0.385534        3373.422971            1       True          6
+1             LightGBM      0.3685   0.966667        0.587543       0.220598    35.599686                 0.587543                0.220598          35.599686            1       True          3
+2           LightGBMXT      0.3651   0.965000        0.353462       0.219493    14.153326                 0.353462                0.219493          14.153326            1       True          2
+3  WeightedEnsemble_L2      0.2864   0.988333        7.664702       1.492706  3537.966424                 0.017155                0.000251           0.173820            2       True         10
+4      NeuralNetFastAI      0.2524   0.985000        4.556622       0.330633   141.384111                 4.556622                0.330633         141.384111            1       True          1
+5              XGBoost      0.2411   0.975000        1.422076       0.190803    18.727459                 1.422076                0.190803          18.727459            1       True          9
+6     RandomForestGini      0.2228   0.943333        0.276165       0.195553     1.844614                 0.276165                0.195553           1.844614            1       True          4
+7     RandomForestEntr      0.1908   0.945000        0.406199       0.320734     2.406767                 0.406199                0.320734           2.406767            1       True          5
+8       ExtraTreesGini      0.1861   0.943333        0.273027       0.192922     1.237922                 0.273027                0.192922           1.237922            1       True          7
+9       ExtraTreesEntr      0.1673   0.946667        0.261271       0.197010     1.175526                 0.261271                0.197010           1.175526            1       True          8
+*** Summary of fit() ***
+Estimated performance of each model:
+                 model  score_val  pred_time_val     fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0  WeightedEnsemble_L2   0.988333       1.492706  3537.966424                0.000251           0.173820            2       True         10
+1      NeuralNetFastAI   0.985000       0.330633   141.384111                0.330633         141.384111            1       True          1
+2              XGBoost   0.975000       0.190803    18.727459                0.190803          18.727459            1       True          9
+3             LightGBM   0.966667       0.220598    35.599686                0.220598          35.599686            1       True          3
+4           LightGBMXT   0.965000       0.219493    14.153326                0.219493          14.153326            1       True          2
+5             CatBoost   0.958333       0.385534  3373.422971                0.385534        3373.422971            1       True          6
+6       ExtraTreesEntr   0.946667       0.197010     1.175526                0.197010           1.175526            1       True          8
+7     RandomForestEntr   0.945000       0.320734     2.406767                0.320734           2.406767            1       True          5
+8       ExtraTreesGini   0.943333       0.192922     1.237922                0.192922           1.237922            1       True          7
+9     RandomForestGini   0.943333       0.195553     1.844614                0.195553           1.844614            1       True          4
+Number of models trained: 10
+Types of models trained:
+{'RFModel', 'LGBModel', 'NNFastAiTabularModel', 'XGBoostModel', 'WeightedEnsembleModel', 'XTModel', 'CatBoostModel'}
+Bagging used: False 
+Multi-layer stack-ensembling used: False 
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('category', []) : 784 | ['1', '2', '3', '4', '5', ...]
+*** End of fit() summary ***
+
+TARGETED = FALSE
+
+Eval poison percent = 1, and epsilon = 64
+                 model  score_test  score_val  pred_time_test  pred_time_val     fit_time  pred_time_test_marginal  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0           LightGBMXT      0.5046   0.946667        0.456344       0.229613    19.268464                 0.456344                0.229613          19.268464            1       True          2
+1             CatBoost      0.5008   0.931667        0.990509       0.465261  3335.820240                 0.990509                0.465261        3335.820240            1       True          6
+2             LightGBM      0.4808   0.950000        0.645020       0.230186    29.214870                 0.645020                0.230186          29.214870            1       True          3
+3              XGBoost      0.4145   0.920000        1.509757       0.241627    17.132353                 1.509757                0.241627          17.132353            1       True          9
+4      NeuralNetFastAI      0.3868   0.968333        4.820499       0.345557   179.835397                 4.820499                0.345557         179.835397            1       True          1
+5  WeightedEnsemble_L2      0.1792   0.975000        5.807655       1.060137   185.129476                 0.004179                0.000252           0.179227            2       True         10
+6     RandomForestEntr      0.0952   0.930000        0.418499       0.325547     2.578713                 0.418499                0.325547           2.578713            1       True          5
+7       ExtraTreesEntr      0.0943   0.923333        0.280062       0.193937     1.241895                 0.280062                0.193937           1.241895            1       True          8
+8     RandomForestGini      0.0941   0.933333        0.283382       0.203027     1.880602                 0.283382                0.203027           1.880602            1       True          4
+9       ExtraTreesGini      0.0920   0.935000        0.284416       0.194844     1.294243                 0.284416                0.194844           1.294243            1       True          7
+*** Summary of fit() ***
+Estimated performance of each model:
+                 model  score_val  pred_time_val     fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0  WeightedEnsemble_L2   0.975000       1.060137   185.129476                0.000252           0.179227            2       True         10
+1      NeuralNetFastAI   0.968333       0.345557   179.835397                0.345557         179.835397            1       True          1
+2             LightGBM   0.950000       0.230186    29.214870                0.230186          29.214870            1       True          3
+3           LightGBMXT   0.946667       0.229613    19.268464                0.229613          19.268464            1       True          2
+4       ExtraTreesGini   0.935000       0.194844     1.294243                0.194844           1.294243            1       True          7
+5     RandomForestGini   0.933333       0.203027     1.880602                0.203027           1.880602            1       True          4
+6             CatBoost   0.931667       0.465261  3335.820240                0.465261        3335.820240            1       True          6
+7     RandomForestEntr   0.930000       0.325547     2.578713                0.325547           2.578713            1       True          5
+8       ExtraTreesEntr   0.923333       0.193937     1.241895                0.193937           1.241895            1       True          8
+9              XGBoost   0.920000       0.241627    17.132353                0.241627          17.132353            1       True          9
+Number of models trained: 10
+Types of models trained:
+{'RFModel', 'LGBModel', 'NNFastAiTabularModel', 'XGBoostModel', 'WeightedEnsembleModel', 'XTModel', 'CatBoostModel'}
+Bagging used: False 
+Multi-layer stack-ensembling used: False 
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('category', []) : 784 | ['1', '2', '3', '4', '5', ...]
+*** End of fit() summary ***

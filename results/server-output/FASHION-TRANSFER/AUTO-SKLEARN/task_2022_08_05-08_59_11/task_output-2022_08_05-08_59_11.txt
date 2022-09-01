@@ -1,0 +1,356 @@
+
+Loading benchmark model ...
+Starting model training with seed=33
+Accuracy score on 10% clean data:  0.8672
+
+Time taken for execution  since Start: 1:02:06.190552
+
+Time taken for execution  since Last Timing: 1:02:06.182009
+INFO FOR targeted = True
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 4 reaches Accuracy = 0.8662
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 4 reaches Accuracy = 0.8576
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 4 reaches Accuracy = 0.8438
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 4 reaches Accuracy = 0.5713
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 8 reaches Accuracy = 0.8675
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 8 reaches Accuracy = 0.8585
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 8 reaches Accuracy = 0.8331
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 8 reaches Accuracy = 0.5357
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 16 reaches Accuracy = 0.8643
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 16 reaches Accuracy = 0.8565
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 16 reaches Accuracy = 0.8367
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 16 reaches Accuracy = 0.4857
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 64 reaches Accuracy = 0.8663
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 64 reaches Accuracy = 0.8432
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 64 reaches Accuracy = 0.7939
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 64 reaches Accuracy = 0.5002
+Accuracies for seed = 33
+0.8662
+0.8576
+0.8438
+0.5713
+0.8675
+0.8585
+0.8331
+0.5357
+0.8643
+0.8565
+0.8367
+0.4857
+0.8663
+0.8432
+0.7939
+0.5002
+Timings for seed = 33
+1:06:19.491283
+1:10:53.181557
+1:00:43.218359
+1:00:02.203469
+1:02:09.701777
+1:07:27.552389
+1:09:27.290057
+1:17:15.173701
+1:02:42.027782
+1:04:40.267039
+1:08:38.580045
+1:05:36.116872
+1:03:28.870704
+1:05:45.340962
+1:01:30.797991
+1:02:12.070769
+INFO FOR targeted = False
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 4 reaches Accuracy = 0.866
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 4 reaches Accuracy = 0.8492
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 4 reaches Accuracy = 0.8274
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 4 reaches Accuracy = 0.6462
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 8 reaches Accuracy = 0.8636
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 8 reaches Accuracy = 0.856
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 8 reaches Accuracy = 0.8081
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 8 reaches Accuracy = 0.699
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 16 reaches Accuracy = 0.8593
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 16 reaches Accuracy = 0.852
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 16 reaches Accuracy = 0.808
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 16 reaches Accuracy = 0.6385
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 64 reaches Accuracy = 0.8566
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 64 reaches Accuracy = 0.8382
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 64 reaches Accuracy = 0.7818
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 64 reaches Accuracy = 0.5992
+Accuracies for seed = 33
+0.866
+0.8492
+0.8274
+0.6462
+0.8636
+0.856
+0.8081
+0.699
+0.8593
+0.852
+0.808
+0.6385
+0.8566
+0.8382
+0.7818
+0.5992
+Timings for seed = 33
+1:03:53.402210
+1:00:57.607037
+1:02:40.500061
+1:06:32.481787
+1:01:55.365397
+1:03:29.194776
+1:04:49.108007
+1:06:07.050979
+1:01:30.085024
+1:07:08.237336
+1:04:09.221938
+1:07:51.696440
+1:02:07.398877
+1:01:40.521127
+1:01:51.589529
+1:01:41.672871
+Starting model training with seed=34
+Accuracy score on 10% clean data:  0.8632
+
+Time taken for execution  since Start: 1 day, 12:31:01.200651
+
+Time taken for execution  since Last Timing: 1:01:37.991947
+INFO FOR targeted = True
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 4 reaches Accuracy = 0.8639
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 4 reaches Accuracy = 0.8607
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 4 reaches Accuracy = 0.8316
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 4 reaches Accuracy = 0.5923
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 8 reaches Accuracy = 0.8604
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 8 reaches Accuracy = 0.862
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 8 reaches Accuracy = 0.8401
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 8 reaches Accuracy = 0.5039
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 16 reaches Accuracy = 0.8616
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 16 reaches Accuracy = 0.8555
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 16 reaches Accuracy = 0.8343
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 16 reaches Accuracy = 0.5347
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 64 reaches Accuracy = 0.868
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 64 reaches Accuracy = 0.8482
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 64 reaches Accuracy = 0.816
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 64 reaches Accuracy = 0.5476
+Accuracies for seed = 34
+0.8639
+0.8607
+0.8316
+0.5923
+0.8604
+0.862
+0.8401
+0.5039
+0.8616
+0.8555
+0.8343
+0.5347
+0.868
+0.8482
+0.816
+0.5476
+Timings for seed = 34
+1:07:59.034363
+1:03:18.062414
+1:03:35.178048
+1:03:49.286633
+1:02:24.060078
+1:01:54.791925
+1:08:01.701409
+1:04:39.211613
+1:02:40.312717
+1:03:07.693802
+1:01:41.834642
+1:02:39.700298
+1:01:55.602754
+1:02:02.277277
+1:03:20.498367
+1:00:11.520551
+INFO FOR targeted = False
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 4 reaches Accuracy = 0.8633
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 4 reaches Accuracy = 0.8585
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 4 reaches Accuracy = 0.8233
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 4 reaches Accuracy = 0.6051
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 8 reaches Accuracy = 0.866
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 8 reaches Accuracy = 0.8588
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 8 reaches Accuracy = 0.8136
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 8 reaches Accuracy = 0.6712
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 16 reaches Accuracy = 0.8605
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 16 reaches Accuracy = 0.8496
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 16 reaches Accuracy = 0.8161
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 16 reaches Accuracy = 0.6698
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Training with poison percent = 0.1, and epsilon = 64 reaches Accuracy = 0.8591
+Starting Poisoning creation with 50% of the Dataset
+For the Dataset with 6000 Samaples this results in 3000 poisons and 300 per class
+Training with poison percent = 0.5, and epsilon = 64 reaches Accuracy = 0.8397
+Starting Poisoning creation with 90% of the Dataset
+For the Dataset with 6000 Samaples this results in 5400 poisons and 540 per class
+Training with poison percent = 0.9, and epsilon = 64 reaches Accuracy = 0.7821
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Training with poison percent = 1, and epsilon = 64 reaches Accuracy = 0.5732
+Accuracies for seed = 34
+0.8633
+0.8585
+0.8233
+0.6051
+0.866
+0.8588
+0.8136
+0.6712
+0.8605
+0.8496
+0.8161
+0.6698
+0.8591
+0.8397
+0.7821
+0.5732
+Timings for seed = 34
+1:02:27.904262
+1:04:27.025243
+1:04:15.050472
+1:03:10.266678
+1:04:13.268662
+1:03:17.342899
+1:06:22.597976
+1:01:43.242771
+1:02:22.766250
+1:02:21.014125
+1:08:40.095616
+1:15:18.212734
+1:01:54.199899
+1:04:54.359459
+1:10:05.305114
+1:03:38.567728
+Accuracy score on clean 100% data:  0.9116
+
+Time taken for execution  since Start: 3 days, 8:54:56.467274
+
+Time taken for execution  since Last Timing: 10:11:23.279844
+Accuracy score on clean 100% data:  0.9135
+
+Time taken for execution  since Start: 3 days, 19:03:07.192944
+
+Time taken for execution  since Last Timing: 10:08:10.725670

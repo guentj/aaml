@@ -1,0 +1,214 @@
+Checking whether there is an H2O instance running at http://localhost:54321 ..... not found.
+Attempting to start a local H2O server...
+  Java Version: openjdk version "11.0.15" 2022-04-19; OpenJDK Runtime Environment (build 11.0.15+10-Ubuntu-0ubuntu0.20.04.1); OpenJDK 64-Bit Server VM (build 11.0.15+10-Ubuntu-0ubuntu0.20.04.1, mixed mode, sharing)
+  Starting server from /usr/local/lib/python3.8/dist-packages/h2o/backend/bin/h2o.jar
+  Ice root: /tmp/tmp4d718or8
+  JVM stdout: /tmp/tmp4d718or8/h2o_unknownUser_started_from_python.out
+  JVM stderr: /tmp/tmp4d718or8/h2o_unknownUser_started_from_python.err
+  Server is running at http://127.0.0.1:54321
+Connecting to H2O server at http://127.0.0.1:54321 ... successful.
+--------------------------  ----------------------------------
+H2O_cluster_uptime:         01 secs
+H2O_cluster_timezone:       Europe/Berlin
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.36.1.2
+H2O_cluster_version_age:    1 month and 23 days
+H2O_cluster_name:           H2O_from_python_unknownUser_ajxlco
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    15.73 Gb
+H2O_cluster_total_cores:    16
+H2O_cluster_allowed_cores:  16
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://127.0.0.1:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+Python_version:             3.8.10 final
+--------------------------  ----------------------------------
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+AutoML progress: |███████████████████████████████████████████████████████████████| (done) 100%
+Model Details
+=============
+H2OStackedEnsembleEstimator :  Stacked Ensemble
+Model Key:  StackedEnsemble_AllModels_5_AutoML_1_20220720_82121
+
+No model summary for this model
+
+ModelMetricsRegression: stackedensemble
+** Reported on train data. **
+
+MSE: 8.338736065230021
+RMSE: 2.8876869749385965
+MAE: 2.370906114588306
+RMSLE: 0.7745509866890631
+Mean Residual Deviance: 8.338736065230021
+
+ModelMetricsRegression: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 1.0126500010532204
+RMSE: 1.0063051232370928
+MAE: 0.5827510729997397
+RMSLE: 0.2512469899356944
+Mean Residual Deviance: 1.0126500010532204
+
+Cross-Validation Metrics Summary: 
+                        mean      sd         cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ---------  ------------  ------------  ------------  ------------  ------------
+mae                     0.58177   0.0399147  0.615916      0.623088      0.536955      0.589045      0.543846
+mean_residual_deviance  1.01019   0.107695   1.09596       1.12999       0.880018      1.02194       0.923012
+mse                     1.01019   0.107695   1.09596       1.12999       0.880018      1.02194       0.923012
+r2                      0.877445  0.0130063  0.868106      0.862516      0.894255      0.875872      0.886473
+residual_deviance       1.01019   0.107695   1.09596       1.12999       0.880018      1.02194       0.923012
+rmse                    1.00393   0.053816   1.04688       1.06301       0.938093      1.01091       0.960735
+rmsle                   0.250416  0.0162977  0.265876      0.255624      0.236004      0.264155      0.23042
+
+stackedensemble prediction progress: |███████████████████████████████████████████| (done) 100%
+Test Accuracy on FASHION-MNIST-10 1 hr: 0.1362
+
+Time taken for execution  since Start: 1:00:13.440576
+
+Time taken for execution  since Last Timing: 1:00:13.432330
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+AutoML progress: |███████████████████████████████████████████████████████████████
+19:15:32.563: GBM_lr_annealing_selection_AutoML_2_20220720_92147 [GBM lr_annealing] failed: water.exceptions.H2OIllegalArgumentException: Can only convert jobs producing a single Model or ModelContainer.
+
+| (done) 100%
+Model Details
+=============
+H2OStackedEnsembleEstimator :  Stacked Ensemble
+Model Key:  StackedEnsemble_AllModels_5_AutoML_2_20220720_92147
+
+No model summary for this model
+
+ModelMetricsRegression: stackedensemble
+** Reported on train data. **
+
+MSE: 0.10335535835276871
+RMSE: 0.3214892818629708
+MAE: 0.15880307478824865
+RMSLE: 0.11827676760707803
+Mean Residual Deviance: 0.10335535835276871
+
+ModelMetricsRegression: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 0.9648645510480065
+RMSE: 0.9822751910987096
+MAE: 0.47028454873116926
+RMSLE: 0.30513135701244204
+Mean Residual Deviance: 0.9648645510480065
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     0.470297  0.00909656  0.478193      0.471471      0.45922       0.462858      0.479744
+mean_residual_deviance  0.964905  0.0448031   0.99424       0.976164      0.916397      0.920604      1.01712
+mse                     0.964905  0.0448031   0.99424       0.976164      0.916397      0.920604      1.01712
+r2                      0.883029  0.00543274  0.88087       0.881325      0.889014      0.887986      0.875951
+residual_deviance       0.964905  0.0448031   0.99424       0.976164      0.916397      0.920604      1.01712
+rmse                    0.982083  0.022836    0.997116      0.98801       0.957286      0.959481      1.00852
+rmsle                   0.305058  0.00860198  0.314369      0.306534      0.291621      0.302987      0.309778
+
+stackedensemble prediction progress: |███████████████████████████████████████████| (done) 100%
+Test Accuracy on FASHION-MNIST 10 hrs: 0.7577
+
+Time taken for execution  since Start: 10:58:53.151956
+
+Time taken for execution  since Last Timing: 9:58:39.711380
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+AutoML progress: |███████████████████████████████████████████████████████████████| (done) 100%
+Model Details
+=============
+H2OStackedEnsembleEstimator :  Stacked Ensemble
+Model Key:  StackedEnsemble_AllModels_5_AutoML_3_20220720_192006
+
+No model summary for this model
+
+ModelMetricsRegression: stackedensemble
+** Reported on train data. **
+
+MSE: 8.571530359967792
+RMSE: 2.9277176024964895
+MAE: 2.48418856678264
+RMSLE: 0.7558802290057386
+Mean Residual Deviance: 8.571530359967792
+
+ModelMetricsRegression: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 1.1386803908776588
+RMSE: 1.0670896826779175
+MAE: 0.6396492647524719
+RMSLE: 0.30777489576899514
+Mean Residual Deviance: 1.1386803908776588
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     0.639294  0.016185    0.650454      0.633884      0.637272      0.658442      0.616418
+mean_residual_deviance  1.13783   0.0600718   1.19823       1.08049       1.12609       1.20268       1.08166
+mse                     1.13783   0.0600718   1.19823       1.08049       1.12609       1.20268       1.08166
+r2                      0.861887  0.00782178  0.856937      0.870996      0.85881       0.853371      0.86932
+residual_deviance       1.13783   0.0600718   1.19823       1.08049       1.12609       1.20268       1.08166
+rmse                    1.06639   0.0281142   1.09464       1.03947       1.06117       1.09667       1.04003
+rmsle                   0.307404  0.00956234  0.319812      0.307841      0.306948      0.309415      0.293004
+
+stackedensemble prediction progress: |███████████████████████████████████████████| (done) 100%
+Test Accuracy on FASHION-MNIST-10 1 hr: 0.1128
+
+Time taken for execution  since Start: 11:58:59.770214
+
+Time taken for execution  since Last Timing: 1:00:06.618258
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+AutoML progress: |███████████████████████████████████████████████████████████████
+06:14:29.334: GBM_lr_annealing_selection_AutoML_4_20220720_202033 [GBM lr_annealing] failed: water.exceptions.H2OIllegalArgumentException: Can only convert jobs producing a single Model or ModelContainer.
+
+| (done) 100%
+Model Details
+=============
+H2OStackedEnsembleEstimator :  Stacked Ensemble
+Model Key:  StackedEnsemble_AllModels_5_AutoML_4_20220720_202033
+
+No model summary for this model
+
+ModelMetricsRegression: stackedensemble
+** Reported on train data. **
+
+MSE: 0.0773108812686387
+RMSE: 0.27804834340207585
+MAE: 0.1575787624782202
+RMSLE: 0.10627391847571073
+Mean Residual Deviance: 0.0773108812686387
+
+ModelMetricsRegression: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 0.9762777590978146
+RMSE: 0.9880676895323592
+MAE: 0.4850837466621706
+RMSLE: 0.30549025732630775
+Mean Residual Deviance: 0.9762777590978146
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     0.485068  0.0131514   0.490439      0.467359      0.498686      0.493459      0.475397
+mean_residual_deviance  0.976249  0.0472655   0.992502      0.929263      1.01705       1.01995       0.922488
+mse                     0.976249  0.0472655   0.992502      0.929263      1.01705       1.01995       0.922488
+r2                      0.881621  0.00635424  0.879304      0.887575      0.876979      0.875102      0.889147
+residual_deviance       0.976249  0.0472655   0.992502      0.929263      1.01705       1.01995       0.922488
+rmse                    0.98782   0.0239967   0.996244      0.963983      1.00849       1.00992       0.960462
+rmsle                   0.305414  0.00737927  0.306221      0.294173      0.31283       0.310876      0.302969
+
+stackedensemble prediction progress: |███████████████████████████████████████████| (done) 100%
+Test Accuracy on FASHION-MNIST 10 hrs: 0.7391
+
+Time taken for execution  since Start: 21:57:43.156544
+
+Time taken for execution  since Last Timing: 9:58:43.386330

@@ -1,0 +1,145 @@
+version: "3.9"
+
+services:
+  generate_poisons:
+    build: generate_poisons/.
+    container_name: generate_poisons
+    volumes:
+        - /home/jguenther/aaml/func/:/home/aaml/func
+        - /home/jguenther/aaml/storage:/home/storage
+        - /home/jguenther/aaml/server-output/generate_poisons:/home/aaml_output/
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            device_ids: ['0']
+            capabilities: [gpu]
+
+  automltester_autokeras:
+    build: automl-tester/autokeras/.
+    container_name: automltester_autokeras
+    volumes:
+        - /home/jguenther/aaml/server-output/autokeras:/home/aaml_output/
+        - /home/jguenther/aaml/storage:/home/storage
+        - /home/jguenther/aaml/func/:/home/aaml/func
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            device_ids: ['0']
+            capabilities: [gpu]
+  automltester_autokeras_ensemble:
+    build: automl-tester/autokeras_ensemble/.
+    container_name: automltester_autokeras_ensemble
+    volumes:
+        - /home/jguenther/aaml/server-output/autokeras_ensemble:/home/aaml_output/
+        - /home/jguenther/aaml/storage:/home/storage
+        - /home/jguenther/aaml/func/:/home/aaml/func
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            device_ids: ['1']
+            capabilities: [gpu]
+  automltester_autokeras_countermeasure:
+    build: automl-tester/autokeras_countermeasure/.
+    container_name: automltester_autokeras_countermeasure
+    volumes:
+        - /home/jguenther/aaml/server-output/autokeras_countermeasure:/home/aaml_output/
+        - /home/jguenther/aaml/storage:/home/storage
+        - /home/jguenther/aaml/func/:/home/aaml/func
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            device_ids: ['1']
+            capabilities: [gpu]
+  automltester_autosklearn:
+    build: automl-tester/auto-sklearn/.
+    container_name: automltester_sklearn
+    volumes:
+        - /home/jguenther/aaml/server-output/auto-sklearn:/home/aaml_output/
+        - /home/jguenther/aaml/storage:/home/storage
+        - /home/jguenther/aaml/func/:/home/aaml/func
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            device_ids: ['1']
+            capabilities: [gpu]
+
+  automltester_tpot:
+    build: automl-tester/tpot/.
+    container_name: automltester_tpot
+    volumes:
+        - /home/jguenther/aaml/server-output/tpot:/home/aaml_output/
+        - /home/jguenther/aaml/storage:/home/storage
+        - /home/jguenther/aaml/func/:/home/aaml/func
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            device_ids: ['0']
+            capabilities: [gpu]
+  automltester_h2o:
+    build: automl-tester/h2o/.
+    container_name: automltester_h2o
+    volumes:
+        - /home/jguenther/aaml/server-output/h2o:/home/aaml_output/
+        - /home/jguenther/aaml/storage:/home/storage
+        - /home/jguenther/aaml/func/:/home/aaml/func
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            device_ids: ['0']
+            capabilities: [gpu]
+  automltester_darts:
+    build: automl-tester/darts/.
+    container_name: automltester_darts
+    volumes:
+        - /home/jguenther/aaml/server-output/darts:/home/aaml_output/
+        - /home/jguenther/aaml/storage:/home/storage
+        - /home/jguenther/aaml/func/:/home/aaml/func
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            device_ids: ['0']
+            capabilities: [gpu]
+  automltester_autogluon:
+    build: automl-tester/autogluon/.
+    container_name: automltester_autogluon
+    volumes:
+        - /home/jguenther/aaml/server-output/autogluon:/home/aaml_output/
+        - /home/jguenther/aaml/storage:/home/storage
+        - /home/jguenther/aaml/func/:/home/aaml/func
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            device_ids: ['1']
+            capabilities: [gpu]
+  automltester_mljar:
+    build: automl-tester/mljar/.
+    container_name: automltester_mljar
+    volumes:
+        - /home/jguenther/aaml/server-output/mljar:/home/aaml_output/
+        - /home/jguenther/aaml/storage:/home/storage
+        - /home/jguenther/aaml/func/:/home/aaml/func
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            device_ids: ['1']
+            capabilities: [gpu]

@@ -1,0 +1,32 @@
+/usr/local/lib/python3.8/dist-packages/torch/optim/lr_scheduler.py:117: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+/usr/local/lib/python3.8/dist-packages/torch/optim/lr_scheduler.py:117: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+/usr/local/lib/python3.8/dist-packages/torch/optim/lr_scheduler.py:117: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
+Traceback (most recent call last):
+  File "train_search_poison.py", line 558, in <module>
+    main(custom_train, custom_test)
+  File "train_search_poison.py", line 158, in main
+    train_acc, train_obj = train(train_queue, valid_queue, model, network_params, criterion, optimizer, optimizer_a, lr, train_arch=False)
+  File "train_search_poison.py", line 307, in train
+    logits = model(input)
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py", line 532, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/parallel/data_parallel.py", line 150, in forward
+    return self.module(*inputs[0], **kwargs[0])
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py", line 532, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/aaml/pdarts/model_search.py", line 142, in forward
+    s0, s1 = s1, cell(s0, s1, weights)
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py", line 532, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/aaml/pdarts/model_search.py", line 73, in forward
+    s = sum(self.cell_ops[offset+j](h, weights[offset+j]) for j, h in enumerate(states))
+  File "/home/aaml/pdarts/model_search.py", line 73, in <genexpr>
+    s = sum(self.cell_ops[offset+j](h, weights[offset+j]) for j, h in enumerate(states))
+  File "/usr/local/lib/python3.8/dist-packages/torch/nn/modules/module.py", line 532, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/aaml/pdarts/model_search.py", line 36, in forward
+    return sum(w * op(x) for w, op in zip(weights, self.m_ops))
+RuntimeError: CUDA out of memory. Tried to allocate 20.00 MiB (GPU 0; 10.76 GiB total capacity; 3.99 GiB already allocated; 17.69 MiB free; 3.99 GiB reserved in total by PyTorch)

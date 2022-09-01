@@ -1,0 +1,8 @@
+Accuracy score on 10% clean data:  0.8642
+
+Loading benchmark model ...
+Starting Poisoning creation with 10% of the Dataset
+For the Dataset with 6000 Samaples this results in 600 poisons and 60 per class
+Doing Antipoison Attack. Using 0% Anti Poison Data and 100% Malicious Data.
+For the full Dataset this means 0.0% Antipoison Data, 10.0% Malicious Data and 90.0% Clean Data.
+[ERROR] [2022-07-10 13:29:13,002:Client-AutoML(1):480c0db3-0054-11ed-8001-0242ac1f0002] Dummy prediction failed with run state StatusType.MEMOUT and additional output: {'error': 'Memout (used more than 16384 MB).', 'configuration_origin': 'DUMMY'}.

@@ -1,0 +1,290 @@
+Creating Dataset with epsilon = 4 and targeted = False...
+
+Loading benchmark model ...
+
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Method for poisoning is PGD and the attack is untargeted.
+Currently Executing Epoch 0. Training Loss: 0.2748
+Currently Executing Epoch 10. Training Loss: 0.3845
+Currently Executing Epoch 20. Training Loss: 0.5292
+Currently Executing Epoch 30. Training Loss: 0.5361
+Currently Executing Epoch 40. Training Loss: 0.5391
+Currently Executing Epoch 50. Training Loss: 0.5406
+Currently Executing Epoch 60. Training Loss: 0.5412
+Currently Executing Epoch 70. Training Loss: 0.5416
+Currently Executing Epoch 80. Training Loss: 0.5418
+Currently Executing Epoch 90. Training Loss: 0.5420
+Currently Executing Epoch 100. Training Loss: 0.5421
+Currently Executing Epoch 110. Training Loss: 0.5422
+Currently Executing Epoch 120. Training Loss: 0.5423
+Currently Executing Epoch 130. Training Loss: 0.5423
+Currently Executing Epoch 140. Training Loss: 0.5424
+Currently Executing Epoch 150. Training Loss: 0.5424
+Currently Executing Epoch 160. Training Loss: 0.5424
+Currently Executing Epoch 170. Training Loss: 0.5424
+Currently Executing Epoch 180. Training Loss: 0.5424
+Currently Executing Epoch 190. Training Loss: 0.5424
+Saving Data Done...
+
+Creating Dataset with epsilon = 8 and targeted = False...
+
+Loading benchmark model ...
+
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Method for poisoning is PGD and the attack is untargeted.
+Currently Executing Epoch 0. Training Loss: 0.2748
+Currently Executing Epoch 10. Training Loss: 0.5281
+Currently Executing Epoch 20. Training Loss: 0.9310
+Currently Executing Epoch 30. Training Loss: 0.9714
+Currently Executing Epoch 40. Training Loss: 0.9902
+Currently Executing Epoch 50. Training Loss: 0.9996
+Currently Executing Epoch 60. Training Loss: 1.0045
+Currently Executing Epoch 70. Training Loss: 1.0073
+Currently Executing Epoch 80. Training Loss: 1.0092
+Currently Executing Epoch 90. Training Loss: 1.0105
+Currently Executing Epoch 100. Training Loss: 1.0115
+Currently Executing Epoch 110. Training Loss: 1.0122
+Currently Executing Epoch 120. Training Loss: 1.0128
+Currently Executing Epoch 130. Training Loss: 1.0132
+Currently Executing Epoch 140. Training Loss: 1.0135
+Currently Executing Epoch 150. Training Loss: 1.0138
+Currently Executing Epoch 160. Training Loss: 1.0141
+Currently Executing Epoch 170. Training Loss: 1.0143
+Currently Executing Epoch 180. Training Loss: 1.0144
+Currently Executing Epoch 190. Training Loss: 1.0146
+Saving Data Done...
+
+Creating Dataset with epsilon = 16 and targeted = False...
+
+Loading benchmark model ...
+
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Method for poisoning is PGD and the attack is untargeted.
+Currently Executing Epoch 0. Training Loss: 0.2748
+Currently Executing Epoch 10. Training Loss: 0.9246
+Currently Executing Epoch 20. Training Loss: 2.1575
+Currently Executing Epoch 30. Training Loss: 2.4044
+Currently Executing Epoch 40. Training Loss: 2.5364
+Currently Executing Epoch 50. Training Loss: 2.6127
+Currently Executing Epoch 60. Training Loss: 2.6568
+Currently Executing Epoch 70. Training Loss: 2.6848
+Currently Executing Epoch 80. Training Loss: 2.7044
+Currently Executing Epoch 90. Training Loss: 2.7188
+Currently Executing Epoch 100. Training Loss: 2.7296
+Currently Executing Epoch 110. Training Loss: 2.7380
+Currently Executing Epoch 120. Training Loss: 2.7448
+Currently Executing Epoch 130. Training Loss: 2.7502
+Currently Executing Epoch 140. Training Loss: 2.7548
+Currently Executing Epoch 150. Training Loss: 2.7589
+Currently Executing Epoch 160. Training Loss: 2.7623
+Currently Executing Epoch 170. Training Loss: 2.7651
+Currently Executing Epoch 180. Training Loss: 2.7676
+Currently Executing Epoch 190. Training Loss: 2.7697
+Saving Data Done...
+
+Creating Dataset with epsilon = 64 and targeted = False...
+
+Loading benchmark model ...
+
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Method for poisoning is PGD and the attack is untargeted.
+Currently Executing Epoch 0. Training Loss: 0.2748
+Currently Executing Epoch 10. Training Loss: 5.1049
+Currently Executing Epoch 20. Training Loss: 11.6771
+Currently Executing Epoch 30. Training Loss: 13.6127
+Currently Executing Epoch 40. Training Loss: 14.3143
+Currently Executing Epoch 50. Training Loss: 14.6121
+Currently Executing Epoch 60. Training Loss: 14.7672
+Currently Executing Epoch 70. Training Loss: 14.8577
+Currently Executing Epoch 80. Training Loss: 14.9172
+Currently Executing Epoch 90. Training Loss: 14.9563
+Currently Executing Epoch 100. Training Loss: 14.9887
+Currently Executing Epoch 110. Training Loss: 15.0099
+Currently Executing Epoch 120. Training Loss: 15.0285
+Currently Executing Epoch 130. Training Loss: 15.0427
+Currently Executing Epoch 140. Training Loss: 15.0556
+Currently Executing Epoch 150. Training Loss: 15.0669
+Currently Executing Epoch 160. Training Loss: 15.0775
+Currently Executing Epoch 170. Training Loss: 15.0824
+Currently Executing Epoch 180. Training Loss: 15.0893
+Currently Executing Epoch 190. Training Loss: 15.0956
+Saving Data Done...
+
+Creating Dataset with epsilon = 255 and targeted = False...
+
+Loading benchmark model ...
+
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Method for poisoning is PGD and the attack is untargeted.
+Currently Executing Epoch 0. Training Loss: 0.2748
+Currently Executing Epoch 10. Training Loss: 15.7299
+Currently Executing Epoch 20. Training Loss: 16.0778
+Currently Executing Epoch 30. Training Loss: 16.1067
+Currently Executing Epoch 40. Training Loss: 16.1119
+Currently Executing Epoch 50. Training Loss: 16.1161
+Currently Executing Epoch 60. Training Loss: 16.1160
+Currently Executing Epoch 70. Training Loss: 16.1173
+Currently Executing Epoch 80. Training Loss: 16.1171
+Currently Executing Epoch 90. Training Loss: 16.1175
+Currently Executing Epoch 100. Training Loss: 16.1178
+Currently Executing Epoch 110. Training Loss: 16.1177
+Currently Executing Epoch 120. Training Loss: 16.1179
+Currently Executing Epoch 130. Training Loss: 16.1179
+Currently Executing Epoch 140. Training Loss: 16.1178
+Currently Executing Epoch 150. Training Loss: 16.1180
+Currently Executing Epoch 160. Training Loss: 16.1181
+Currently Executing Epoch 170. Training Loss: 16.1180
+Currently Executing Epoch 180. Training Loss: 16.1181
+Currently Executing Epoch 190. Training Loss: 16.1179
+Saving Data Done...
+
+Creating Dataset with epsilon = 4 and targeted = True...
+
+Loading benchmark model ...
+
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Method for poisoning is PGD and the attack is targeted.
+Currently Executing Epoch 0. Training Loss: 0.2748
+Currently Executing Epoch 10. Training Loss: 0.3103
+Currently Executing Epoch 20. Training Loss: 0.3645
+Currently Executing Epoch 30. Training Loss: 0.3648
+Currently Executing Epoch 40. Training Loss: 0.3647
+Currently Executing Epoch 50. Training Loss: 0.3647
+Currently Executing Epoch 60. Training Loss: 0.3648
+Currently Executing Epoch 70. Training Loss: 0.3648
+Currently Executing Epoch 80. Training Loss: 0.3648
+Currently Executing Epoch 90. Training Loss: 0.3649
+Currently Executing Epoch 100. Training Loss: 0.3649
+Currently Executing Epoch 110. Training Loss: 0.3649
+Currently Executing Epoch 120. Training Loss: 0.3649
+Currently Executing Epoch 130. Training Loss: 0.3649
+Currently Executing Epoch 140. Training Loss: 0.3649
+Currently Executing Epoch 150. Training Loss: 0.3649
+Currently Executing Epoch 160. Training Loss: 0.3649
+Currently Executing Epoch 170. Training Loss: 0.3649
+Currently Executing Epoch 180. Training Loss: 0.3649
+Currently Executing Epoch 190. Training Loss: 0.3649
+Saving Data Done...
+
+Creating Dataset with epsilon = 8 and targeted = True...
+
+Loading benchmark model ...
+
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Method for poisoning is PGD and the attack is targeted.
+Currently Executing Epoch 0. Training Loss: 0.2748
+Currently Executing Epoch 10. Training Loss: 0.3645
+Currently Executing Epoch 20. Training Loss: 0.5334
+Currently Executing Epoch 30. Training Loss: 0.5365
+Currently Executing Epoch 40. Training Loss: 0.5376
+Currently Executing Epoch 50. Training Loss: 0.5384
+Currently Executing Epoch 60. Training Loss: 0.5392
+Currently Executing Epoch 70. Training Loss: 0.5398
+Currently Executing Epoch 80. Training Loss: 0.5402
+Currently Executing Epoch 90. Training Loss: 0.5405
+Currently Executing Epoch 100. Training Loss: 0.5406
+Currently Executing Epoch 110. Training Loss: 0.5408
+Currently Executing Epoch 120. Training Loss: 0.5409
+Currently Executing Epoch 130. Training Loss: 0.5409
+Currently Executing Epoch 140. Training Loss: 0.5410
+Currently Executing Epoch 150. Training Loss: 0.5411
+Currently Executing Epoch 160. Training Loss: 0.5411
+Currently Executing Epoch 170. Training Loss: 0.5412
+Currently Executing Epoch 180. Training Loss: 0.5412
+Currently Executing Epoch 190. Training Loss: 0.5412
+Saving Data Done...
+
+Creating Dataset with epsilon = 16 and targeted = True...
+
+Loading benchmark model ...
+
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Method for poisoning is PGD and the attack is targeted.
+Currently Executing Epoch 0. Training Loss: 0.2748
+Currently Executing Epoch 10. Training Loss: 0.5328
+Currently Executing Epoch 20. Training Loss: 1.1735
+Currently Executing Epoch 30. Training Loss: 1.2480
+Currently Executing Epoch 40. Training Loss: 1.2971
+Currently Executing Epoch 50. Training Loss: 1.3304
+Currently Executing Epoch 60. Training Loss: 1.3505
+Currently Executing Epoch 70. Training Loss: 1.3626
+Currently Executing Epoch 80. Training Loss: 1.3705
+Currently Executing Epoch 90. Training Loss: 1.3761
+Currently Executing Epoch 100. Training Loss: 1.3806
+Currently Executing Epoch 110. Training Loss: 1.3840
+Currently Executing Epoch 120. Training Loss: 1.3867
+Currently Executing Epoch 130. Training Loss: 1.3888
+Currently Executing Epoch 140. Training Loss: 1.3904
+Currently Executing Epoch 150. Training Loss: 1.3918
+Currently Executing Epoch 160. Training Loss: 1.3930
+Currently Executing Epoch 170. Training Loss: 1.3939
+Currently Executing Epoch 180. Training Loss: 1.3946
+Currently Executing Epoch 190. Training Loss: 1.3952
+Saving Data Done...
+
+Creating Dataset with epsilon = 64 and targeted = True...
+
+Loading benchmark model ...
+
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Method for poisoning is PGD and the attack is targeted.
+Currently Executing Epoch 0. Training Loss: 0.2748
+Currently Executing Epoch 10. Training Loss: 2.9708
+Currently Executing Epoch 20. Training Loss: 7.3649
+Currently Executing Epoch 30. Training Loss: 9.4524
+Currently Executing Epoch 40. Training Loss: 10.4422
+Currently Executing Epoch 50. Training Loss: 10.9159
+Currently Executing Epoch 60. Training Loss: 11.1889
+Currently Executing Epoch 70. Training Loss: 11.3677
+Currently Executing Epoch 80. Training Loss: 11.4916
+Currently Executing Epoch 90. Training Loss: 11.5812
+Currently Executing Epoch 100. Training Loss: 11.6501
+Currently Executing Epoch 110. Training Loss: 11.7059
+Currently Executing Epoch 120. Training Loss: 11.7505
+Currently Executing Epoch 130. Training Loss: 11.7864
+Currently Executing Epoch 140. Training Loss: 11.8160
+Currently Executing Epoch 150. Training Loss: 11.8407
+Currently Executing Epoch 160. Training Loss: 11.8623
+Currently Executing Epoch 170. Training Loss: 11.8807
+Currently Executing Epoch 180. Training Loss: 11.8977
+Currently Executing Epoch 190. Training Loss: 11.9122
+Saving Data Done...
+
+Creating Dataset with epsilon = 255 and targeted = True...
+
+Loading benchmark model ...
+
+Starting Poisoning creation with 100% of the Dataset
+For the Dataset with 6000 Samaples this results in 6000 poisons and 600 per class
+Method for poisoning is PGD and the attack is targeted.
+Currently Executing Epoch 0. Training Loss: 0.2748
+Currently Executing Epoch 10. Training Loss: 12.3477
+Currently Executing Epoch 20. Training Loss: 15.3213
+Currently Executing Epoch 30. Training Loss: 15.9923
+Currently Executing Epoch 40. Training Loss: 16.0882
+Currently Executing Epoch 50. Training Loss: 16.1094
+Currently Executing Epoch 60. Training Loss: 16.1146
+Currently Executing Epoch 70. Training Loss: 16.1161
+Currently Executing Epoch 80. Training Loss: 16.1170
+Currently Executing Epoch 90. Training Loss: 16.1174
+Currently Executing Epoch 100. Training Loss: 16.1176
+Currently Executing Epoch 110. Training Loss: 16.1178
+Currently Executing Epoch 120. Training Loss: 16.1179
+Currently Executing Epoch 130. Training Loss: 16.1179
+Currently Executing Epoch 140. Training Loss: 16.1180
+Currently Executing Epoch 150. Training Loss: 16.1181
+Currently Executing Epoch 160. Training Loss: 16.1181
+Currently Executing Epoch 170. Training Loss: 16.1181
+Currently Executing Epoch 180. Training Loss: 16.1181
+Currently Executing Epoch 190. Training Loss: 16.1181
+Saving Data Done...
+

@@ -1,0 +1,325 @@
+Checking whether there is an H2O instance running at http://localhost:54321 ..... not found.
+Attempting to start a local H2O server...
+  Java Version: openjdk version "11.0.15" 2022-04-19; OpenJDK Runtime Environment (build 11.0.15+10-Ubuntu-0ubuntu0.20.04.1); OpenJDK 64-Bit Server VM (build 11.0.15+10-Ubuntu-0ubuntu0.20.04.1, mixed mode, sharing)
+  Starting server from /usr/local/lib/python3.8/dist-packages/h2o/backend/bin/h2o.jar
+  Ice root: /tmp/tmphd4a1k0d
+  JVM stdout: /tmp/tmphd4a1k0d/h2o_unknownUser_started_from_python.out
+  JVM stderr: /tmp/tmphd4a1k0d/h2o_unknownUser_started_from_python.err
+  Server is running at http://127.0.0.1:54321
+Connecting to H2O server at http://127.0.0.1:54321 ... successful.
+--------------------------  ----------------------------------
+H2O_cluster_uptime:         01 secs
+H2O_cluster_timezone:       Europe/Berlin
+H2O_data_parsing_timezone:  UTC
+H2O_cluster_version:        3.36.1.2
+H2O_cluster_version_age:    1 month and 19 days
+H2O_cluster_name:           H2O_from_python_unknownUser_axxm2c
+H2O_cluster_total_nodes:    1
+H2O_cluster_free_memory:    15.73 Gb
+H2O_cluster_total_cores:    16
+H2O_cluster_allowed_cores:  16
+H2O_cluster_status:         locked, healthy
+H2O_connection_url:         http://127.0.0.1:54321
+H2O_connection_proxy:       {"http": null, "https": null}
+H2O_internal_security:      False
+Python_version:             3.8.10 final
+--------------------------  ----------------------------------
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+AutoML progress: |███████████████
+18:53:22.620: DeepLearning_1_AutoML_1_20220715_185016 [DeepLearning def_1] failed: water.exceptions.H2OModelBuilderIllegalArgumentException: Illegal argument(s) for DeepLearning model: DeepLearning_1_AutoML_1_20220715_185016_cv_1.  Details: ERRR on field: _balance_classes: balance_classes requires classification.
+
+
+███████████████████████████████████████████
+19:35:56.707: DeepLearning_grid_1_AutoML_1_20220715_185016 [DeepLearning Grid Search] failed: water.exceptions.H2OGridException: Aborting Grid search after too many consecutive model failures.
+
+
+19:35:59.506: DeepLearning_grid_2_AutoML_1_20220715_185016 [DeepLearning Grid Search] failed: water.exceptions.H2OGridException: Aborting Grid search after too many consecutive model failures.
+
+
+19:36:01.594: DeepLearning_grid_3_AutoML_1_20220715_185016 [DeepLearning Grid Search] failed: water.exceptions.H2OGridException: Aborting Grid search after too many consecutive model failures.
+
+█████| (done) 100%
+Model Details
+=============
+H2OStackedEnsembleEstimator :  Stacked Ensemble
+Model Key:  StackedEnsemble_AllModels_4_AutoML_1_20220715_185016
+
+No model summary for this model
+
+ModelMetricsRegression: stackedensemble
+** Reported on train data. **
+
+MSE: 7.064384974035398
+RMSE: 2.657891076405389
+MAE: 2.181624518170579
+RMSLE: 0.7346625342012467
+Mean Residual Deviance: 7.064384974035398
+
+ModelMetricsRegression: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 0.9694573480726874
+RMSE: 0.9846102518624754
+MAE: 0.5921962884677625
+RMSLE: 0.2504974053807587
+Mean Residual Deviance: 0.9694573480726874
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     0.591916  0.0279488   0.589325      0.594505      0.636904      0.575554      0.56329
+mean_residual_deviance  0.969094  0.0718276   0.953417      0.985791      1.08402       0.901533      0.920713
+mse                     0.969094  0.0718276   0.953417      0.985791      1.08402       0.901533      0.920713
+r2                      0.882426  0.00932141  0.88737       0.880376      0.867013      0.889906      0.887466
+residual_deviance       0.969094  0.0718276   0.953417      0.985791      1.08402       0.901533      0.920713
+rmse                    0.983898  0.0360297   0.976431      0.99287       1.04116       0.949491      0.959538
+rmsle                   0.250245  0.0095023   0.25682       0.250759      0.235768      0.260295      0.247582
+
+stackedensemble prediction progress: |███████████████████████████████████████████| (done) 100%
+Test Accuracy on FASHION-MNIST-10 1 hrs: 0.1217
+
+Time taken for execution  since Start: 0:55:53.628273
+
+Time taken for execution  since Last Timing: 0:55:53.619354
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+AutoML progress: |███████████████
+19:49:05.954: DeepLearning_1_AutoML_2_20220715_194601 [DeepLearning def_1] failed: water.exceptions.H2OModelBuilderIllegalArgumentException: Illegal argument(s) for DeepLearning model: DeepLearning_1_AutoML_2_20220715_194601_cv_1.  Details: ERRR on field: _balance_classes: balance_classes requires classification.
+
+
+███████████████████████████████████████████████
+21:19:05.89: DeepLearning_grid_1_AutoML_2_20220715_194601 [DeepLearning Grid Search] failed: water.exceptions.H2OGridException: Aborting Grid search after too many consecutive model failures.
+
+
+21:19:09.305: DeepLearning_grid_2_AutoML_2_20220715_194601 [DeepLearning Grid Search] failed: water.exceptions.H2OGridException: Aborting Grid search after too many consecutive model failures.
+
+
+21:19:11.693: DeepLearning_grid_3_AutoML_2_20220715_194601 [DeepLearning Grid Search] failed: water.exceptions.H2OGridException: Aborting Grid search after too many consecutive model failures.
+
+█| (done) 100%
+Model Details
+=============
+H2OStackedEnsembleEstimator :  Stacked Ensemble
+Model Key:  StackedEnsemble_AllModels_4_AutoML_2_20220715_194601
+
+No model summary for this model
+
+ModelMetricsRegression: stackedensemble
+** Reported on train data. **
+
+MSE: 6.83875649490214
+RMSE: 2.6151016222896843
+MAE: 2.077389954579157
+RMSLE: 0.731111580735124
+Mean Residual Deviance: 6.83875649490214
+
+ModelMetricsRegression: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 0.9250777246969184
+RMSE: 0.9618096093806291
+MAE: 0.5595391308279901
+RMSLE: 0.2491042698605477
+Mean Residual Deviance: 0.9250777246969184
+
+Cross-Validation Metrics Summary: 
+                        mean      sd         cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ---------  ------------  ------------  ------------  ------------  ------------
+mae                     0.558507  0.0410632  0.571675      0.618675      0.528425      0.560448      0.513314
+mean_residual_deviance  0.922753  0.120387   0.924491      1.12662       0.832762      0.893462      0.83643
+mse                     0.922753  0.120387   0.924491      1.12662       0.832762      0.893462      0.83643
+r2                      0.888041  0.0147218  0.888742      0.862927      0.899934      0.891478      0.897122
+residual_deviance       0.922753  0.120387   0.924491      1.12662       0.832762      0.893462      0.83643
+rmse                    0.959056  0.0608638  0.961505      1.06142       0.912558      0.945231      0.914566
+rmsle                   0.248453  0.0137481  0.263166      0.259262      0.233868      0.251652      0.234318
+
+stackedensemble prediction progress: |███████████████████████████████████████████| (done) 100%
+Test Accuracy on FASHION-MNIST-10 2 hrs: 0.1656
+
+Time taken for execution  since Start: 2:47:32.379359
+
+Time taken for execution  since Last Timing: 1:51:38.751086
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+AutoML progress: |███████████████
+21:40:42.347: DeepLearning_1_AutoML_3_20220715_213740 [DeepLearning def_1] failed: water.exceptions.H2OModelBuilderIllegalArgumentException: Illegal argument(s) for DeepLearning model: DeepLearning_1_AutoML_3_20220715_213740_cv_1.  Details: ERRR on field: _balance_classes: balance_classes requires classification.
+
+
+████████████████████████████████████████████████
+03:47:41.388: DeepLearning_grid_1_AutoML_3_20220715_213740 [DeepLearning Grid Search] failed: water.exceptions.H2OGridException: Aborting Grid search after too many consecutive model failures.
+
+
+03:48:38.816: DeepLearning_grid_2_AutoML_3_20220715_213740 [DeepLearning Grid Search] failed: water.exceptions.H2OGridException: Aborting Grid search after too many consecutive model failures.
+
+
+03:48:41.924: DeepLearning_grid_3_AutoML_3_20220715_213740 [DeepLearning Grid Search] failed: water.exceptions.H2OGridException: Aborting Grid search after too many consecutive model failures.
+
+| (done) 100%
+Model Details
+=============
+H2OStackedEnsembleEstimator :  Stacked Ensemble
+Model Key:  StackedEnsemble_AllModels_4_AutoML_3_20220715_213740
+
+No model summary for this model
+
+ModelMetricsRegression: stackedensemble
+** Reported on train data. **
+
+MSE: 6.6182547836505545
+RMSE: 2.5725968949002787
+MAE: 2.104965056860151
+RMSLE: 0.7176430097120547
+Mean Residual Deviance: 6.6182547836505545
+
+ModelMetricsRegression: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 0.819486041177118
+RMSE: 0.9052546830462231
+MAE: 0.5087819049420296
+RMSLE: 0.2259751437106532
+Mean Residual Deviance: 0.819486041177118
+
+Cross-Validation Metrics Summary: 
+                        mean      sd         cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ---------  ------------  ------------  ------------  ------------  ------------
+mae                     0.507974  0.0369161  0.526753      0.562637      0.473731      0.497585      0.479164
+mean_residual_deviance  0.817596  0.0975433  0.851732      0.9741        0.767761      0.745829      0.74856
+mse                     0.817596  0.0975433  0.851732      0.9741        0.767761      0.745829      0.74856
+r2                      0.900813  0.0118027  0.897498      0.881484      0.907744      0.909409      0.90793
+residual_deviance       0.817596  0.0975433  0.851732      0.9741        0.767761      0.745829      0.74856
+rmse                    0.902977  0.0527817  0.922893      0.986965      0.87622       0.863614      0.865194
+rmsle                   0.225559  0.0110895  0.242078      0.23117       0.214164      0.219974      0.220409
+
+stackedensemble prediction progress: |███████████████████████████████████████████| (done) 100%
+Test Accuracy on FASHION-MNIST-10 8 hrs: 0.1305
+
+Time taken for execution  since Start: 10:08:07.253383
+
+Time taken for execution  since Last Timing: 7:20:34.874024
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+AutoML progress: |██████████████████████████████████████████
+05:52:16.548: DeepLearning_1_AutoML_4_20220716_45836 [DeepLearning def_1] failed: water.exceptions.H2OModelBuilderIllegalArgumentException: Illegal argument(s) for DeepLearning model: DeepLearning_1_AutoML_4_20220716_45836_cv_1.  Details: ERRR on field: _balance_classes: balance_classes requires classification.
+
+
+████████████████
+06:43:24.753: DeepLearning_grid_1_AutoML_4_20220716_45836 [DeepLearning Grid Search] failed: water.exceptions.H2OGridException: Aborting Grid search after too many consecutive model failures.
+
+
+06:43:27.149: DeepLearning_grid_2_AutoML_4_20220716_45836 [DeepLearning Grid Search] failed: water.exceptions.H2OGridException: Aborting Grid search after too many consecutive model failures.
+
+
+06:43:28.574: DeepLearning_grid_3_AutoML_4_20220716_45836 [DeepLearning Grid Search] failed: water.exceptions.H2OGridException: Aborting Grid search after too many consecutive model failures.
+
+█
+06:47:04.543: GBM_lr_annealing_selection_AutoML_4_20220716_45836 [GBM lr_annealing] failed: water.exceptions.H2OIllegalArgumentException: Can only convert jobs producing a single Model or ModelContainer.
+
+████| (done) 100%
+Model Details
+=============
+H2OStackedEnsembleEstimator :  Stacked Ensemble
+Model Key:  StackedEnsemble_AllModels_4_AutoML_4_20220716_45836
+
+No model summary for this model
+
+ModelMetricsRegression: stackedensemble
+** Reported on train data. **
+
+MSE: 0.14058009733837012
+RMSE: 0.3749401250044734
+MAE: 0.18447406832831179
+RMSLE: 0.1502074453264096
+Mean Residual Deviance: 0.14058009733837012
+
+ModelMetricsRegression: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 1.0441146331536952
+RMSE: 1.0218192761705445
+MAE: 0.5244335188409011
+RMSLE: 0.3135353183090493
+Mean Residual Deviance: 1.0441146331536952
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     0.524433  0.00848588  0.530089      0.535331      0.515898      0.516406      0.524443
+mean_residual_deviance  1.04402   0.0335103   1.07448       1.07283       1.04046       0.991982      1.04033
+mse                     1.04402   0.0335103   1.07448       1.07283       1.04046       0.991982      1.04033
+r2                      0.873434  0.00404023  0.87034       0.869055      0.874203      0.879383      0.874187
+residual_deviance       1.04402   0.0335103   1.07448       1.07283       1.04046       0.991982      1.04033
+rmse                    1.02166   0.0164799   1.03657       1.03577       1.02003       0.995983      1.01996
+rmsle                   0.313461  0.00684561  0.318107      0.32112       0.310768      0.30347       0.313842
+
+stackedensemble prediction progress: |███████████████████████████████████████████| (done) 100%
+Test Accuracy on FASHION-MNIST 2 hrs: 0.721
+
+Time taken for execution  since Start: 12:04:15.349815
+
+Time taken for execution  since Last Timing: 1:56:08.096432
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+Parse progress: |████████████████████████████████████████████████████████████████| (done) 100%
+AutoML progress: |██████████████████████████████████████████████████████████████
+07:48:59.812: DeepLearning_1_AutoML_5_20220716_65443 [DeepLearning def_1] failed: water.exceptions.H2OModelBuilderIllegalArgumentException: Illegal argument(s) for DeepLearning model: DeepLearning_1_AutoML_5_20220716_65443_cv_1.  Details: ERRR on field: _balance_classes: balance_classes requires classification.
+
+
+█
+13:16:34.347: DeepLearning_grid_1_AutoML_5_20220716_65443 [DeepLearning Grid Search] failed: water.exceptions.H2OGridException: Aborting Grid search after too many consecutive model failures.
+
+
+13:16:38.463: DeepLearning_grid_2_AutoML_5_20220716_65443 [DeepLearning Grid Search] failed: water.exceptions.H2OGridException: Aborting Grid search after too many consecutive model failures.
+
+
+13:16:39.847: DeepLearning_grid_3_AutoML_5_20220716_65443 [DeepLearning Grid Search] failed: water.exceptions.H2OGridException: Aborting Grid search after too many consecutive model failures.
+
+
+13:39:47.425: GBM_lr_annealing_selection_AutoML_5_20220716_65443 [GBM lr_annealing] failed: water.exceptions.H2OIllegalArgumentException: Can only convert jobs producing a single Model or ModelContainer.
+
+| (done) 100%
+Model Details
+=============
+H2OStackedEnsembleEstimator :  Stacked Ensemble
+Model Key:  StackedEnsemble_AllModels_4_AutoML_5_20220716_65443
+
+No model summary for this model
+
+ModelMetricsRegression: stackedensemble
+** Reported on train data. **
+
+MSE: 0.04176022756907319
+RMSE: 0.2043531931951962
+MAE: 0.10077525305499892
+RMSLE: 0.08512946468858582
+Mean Residual Deviance: 0.04176022756907319
+
+ModelMetricsRegression: stackedensemble
+** Reported on cross-validation data. **
+
+MSE: 0.9977053985949896
+RMSE: 0.9988520403918638
+MAE: 0.5014463590171275
+RMSLE: 0.30909035241186006
+Mean Residual Deviance: 0.9977053985949896
+
+Cross-Validation Metrics Summary: 
+                        mean      sd          cv_1_valid    cv_2_valid    cv_3_valid    cv_4_valid    cv_5_valid
+----------------------  --------  ----------  ------------  ------------  ------------  ------------  ------------
+mae                     0.501447  0.00821801  0.50817       0.511079      0.492851      0.493814      0.50132
+mean_residual_deviance  0.997631  0.0347608   1.03223       1.03121       0.984174      0.949897      0.990641
+mse                     0.997631  0.0347608   1.03223       1.03121       0.984174      0.949897      0.990641
+r2                      0.879055  0.00424441  0.875438      0.874135      0.881009      0.8845        0.880196
+residual_deviance       0.997631  0.0347608   1.03223       1.03121       0.984174      0.949897      0.990641
+rmse                    0.998693  0.0174341   1.01599       1.01549       0.992056      0.974626      0.995309
+rmsle                   0.30902   0.00680403  0.314144      0.317043      0.305214      0.300081      0.308616
+
+stackedensemble prediction progress: |███████████████████████████████████████████| (done) 100%
+Test Accuracy on FASHION-MNIST 8 hrs: 0.7358
+
+Time taken for execution  since Start: 19:35:58.452247
+
+Time taken for execution  since Last Timing: 7:31:43.102432
